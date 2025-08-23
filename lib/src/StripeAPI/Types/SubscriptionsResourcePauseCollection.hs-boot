@@ -1,0 +1,13 @@
+module StripeAPI.Types.SubscriptionsResourcePauseCollection where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data SubscriptionsResourcePauseCollection
+instance Show SubscriptionsResourcePauseCollection
+instance Eq SubscriptionsResourcePauseCollection
+instance Data.Aeson.FromJSON SubscriptionsResourcePauseCollection
+instance Data.Aeson.ToJSON SubscriptionsResourcePauseCollection
+data SubscriptionsResourcePauseCollectionBehavior'
+instance Show SubscriptionsResourcePauseCollectionBehavior'
+instance Eq SubscriptionsResourcePauseCollectionBehavior'
+instance Data.Aeson.FromJSON SubscriptionsResourcePauseCollectionBehavior'
+instance Data.Aeson.ToJSON SubscriptionsResourcePauseCollectionBehavior'

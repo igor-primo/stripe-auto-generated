@@ -1,0 +1,13 @@
+module StripeAPI.Types.PortalFlowsRetention where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PortalFlowsRetention
+instance Show PortalFlowsRetention
+instance Eq PortalFlowsRetention
+instance Data.Aeson.FromJSON PortalFlowsRetention
+instance Data.Aeson.ToJSON PortalFlowsRetention
+data PortalFlowsRetentionCouponOffer'NonNullable
+instance Show PortalFlowsRetentionCouponOffer'NonNullable
+instance Eq PortalFlowsRetentionCouponOffer'NonNullable
+instance Data.Aeson.FromJSON PortalFlowsRetentionCouponOffer'NonNullable
+instance Data.Aeson.ToJSON PortalFlowsRetentionCouponOffer'NonNullable

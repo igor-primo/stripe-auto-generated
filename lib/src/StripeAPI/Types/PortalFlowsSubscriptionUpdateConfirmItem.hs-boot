@@ -1,0 +1,8 @@
+module StripeAPI.Types.PortalFlowsSubscriptionUpdateConfirmItem where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PortalFlowsSubscriptionUpdateConfirmItem
+instance Show PortalFlowsSubscriptionUpdateConfirmItem
+instance Eq PortalFlowsSubscriptionUpdateConfirmItem
+instance Data.Aeson.FromJSON PortalFlowsSubscriptionUpdateConfirmItem
+instance Data.Aeson.ToJSON PortalFlowsSubscriptionUpdateConfirmItem

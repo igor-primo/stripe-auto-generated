@@ -1,0 +1,8 @@
+module StripeAPI.Types.PaymentFlowsInstallmentOptions where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentFlowsInstallmentOptions
+instance Show PaymentFlowsInstallmentOptions
+instance Eq PaymentFlowsInstallmentOptions
+instance Data.Aeson.FromJSON PaymentFlowsInstallmentOptions
+instance Data.Aeson.ToJSON PaymentFlowsInstallmentOptions

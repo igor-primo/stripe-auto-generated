@@ -1,0 +1,13 @@
+module StripeAPI.Types.InvoicesResourceInvoiceTaxId where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data InvoicesResourceInvoiceTaxId
+instance Show InvoicesResourceInvoiceTaxId
+instance Eq InvoicesResourceInvoiceTaxId
+instance Data.Aeson.FromJSON InvoicesResourceInvoiceTaxId
+instance Data.Aeson.ToJSON InvoicesResourceInvoiceTaxId
+data InvoicesResourceInvoiceTaxIdType'
+instance Show InvoicesResourceInvoiceTaxIdType'
+instance Eq InvoicesResourceInvoiceTaxIdType'
+instance Data.Aeson.FromJSON InvoicesResourceInvoiceTaxIdType'
+instance Data.Aeson.ToJSON InvoicesResourceInvoiceTaxIdType'

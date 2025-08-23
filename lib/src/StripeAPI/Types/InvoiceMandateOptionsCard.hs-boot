@@ -1,0 +1,13 @@
+module StripeAPI.Types.InvoiceMandateOptionsCard where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data InvoiceMandateOptionsCard
+instance Show InvoiceMandateOptionsCard
+instance Eq InvoiceMandateOptionsCard
+instance Data.Aeson.FromJSON InvoiceMandateOptionsCard
+instance Data.Aeson.ToJSON InvoiceMandateOptionsCard
+data InvoiceMandateOptionsCardAmountType'NonNullable
+instance Show InvoiceMandateOptionsCardAmountType'NonNullable
+instance Eq InvoiceMandateOptionsCardAmountType'NonNullable
+instance Data.Aeson.FromJSON InvoiceMandateOptionsCardAmountType'NonNullable
+instance Data.Aeson.ToJSON InvoiceMandateOptionsCardAmountType'NonNullable

@@ -1,0 +1,23 @@
+module StripeAPI.Types.Product where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data Product
+instance Show Product
+instance Eq Product
+instance Data.Aeson.FromJSON Product
+instance Data.Aeson.ToJSON Product
+data ProductDefaultPrice'NonNullableVariants
+instance Show ProductDefaultPrice'NonNullableVariants
+instance Eq ProductDefaultPrice'NonNullableVariants
+instance Data.Aeson.FromJSON ProductDefaultPrice'NonNullableVariants
+instance Data.Aeson.ToJSON ProductDefaultPrice'NonNullableVariants
+data ProductPackageDimensions'NonNullable
+instance Show ProductPackageDimensions'NonNullable
+instance Eq ProductPackageDimensions'NonNullable
+instance Data.Aeson.FromJSON ProductPackageDimensions'NonNullable
+instance Data.Aeson.ToJSON ProductPackageDimensions'NonNullable
+data ProductTaxCode'NonNullableVariants
+instance Show ProductTaxCode'NonNullableVariants
+instance Eq ProductTaxCode'NonNullableVariants
+instance Data.Aeson.FromJSON ProductTaxCode'NonNullableVariants
+instance Data.Aeson.ToJSON ProductTaxCode'NonNullableVariants

@@ -1,0 +1,18 @@
+module StripeAPI.Types.PaymentMethodIdeal where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentMethodIdeal
+instance Show PaymentMethodIdeal
+instance Eq PaymentMethodIdeal
+instance Data.Aeson.FromJSON PaymentMethodIdeal
+instance Data.Aeson.ToJSON PaymentMethodIdeal
+data PaymentMethodIdealBank'NonNullable
+instance Show PaymentMethodIdealBank'NonNullable
+instance Eq PaymentMethodIdealBank'NonNullable
+instance Data.Aeson.FromJSON PaymentMethodIdealBank'NonNullable
+instance Data.Aeson.ToJSON PaymentMethodIdealBank'NonNullable
+data PaymentMethodIdealBic'NonNullable
+instance Show PaymentMethodIdealBic'NonNullable
+instance Eq PaymentMethodIdealBic'NonNullable
+instance Data.Aeson.FromJSON PaymentMethodIdealBic'NonNullable
+instance Data.Aeson.ToJSON PaymentMethodIdealBic'NonNullable

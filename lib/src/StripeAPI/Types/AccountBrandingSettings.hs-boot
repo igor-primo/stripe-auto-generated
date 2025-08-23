@@ -1,0 +1,18 @@
+module StripeAPI.Types.AccountBrandingSettings where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data AccountBrandingSettings
+instance Show AccountBrandingSettings
+instance Eq AccountBrandingSettings
+instance Data.Aeson.FromJSON AccountBrandingSettings
+instance Data.Aeson.ToJSON AccountBrandingSettings
+data AccountBrandingSettingsIcon'NonNullableVariants
+instance Show AccountBrandingSettingsIcon'NonNullableVariants
+instance Eq AccountBrandingSettingsIcon'NonNullableVariants
+instance Data.Aeson.FromJSON AccountBrandingSettingsIcon'NonNullableVariants
+instance Data.Aeson.ToJSON AccountBrandingSettingsIcon'NonNullableVariants
+data AccountBrandingSettingsLogo'NonNullableVariants
+instance Show AccountBrandingSettingsLogo'NonNullableVariants
+instance Eq AccountBrandingSettingsLogo'NonNullableVariants
+instance Data.Aeson.FromJSON AccountBrandingSettingsLogo'NonNullableVariants
+instance Data.Aeson.ToJSON AccountBrandingSettingsLogo'NonNullableVariants

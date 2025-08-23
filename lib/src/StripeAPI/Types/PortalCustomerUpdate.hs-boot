@@ -1,0 +1,13 @@
+module StripeAPI.Types.PortalCustomerUpdate where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PortalCustomerUpdate
+instance Show PortalCustomerUpdate
+instance Eq PortalCustomerUpdate
+instance Data.Aeson.FromJSON PortalCustomerUpdate
+instance Data.Aeson.ToJSON PortalCustomerUpdate
+data PortalCustomerUpdateAllowedUpdates'
+instance Show PortalCustomerUpdateAllowedUpdates'
+instance Eq PortalCustomerUpdateAllowedUpdates'
+instance Data.Aeson.FromJSON PortalCustomerUpdateAllowedUpdates'
+instance Data.Aeson.ToJSON PortalCustomerUpdateAllowedUpdates'

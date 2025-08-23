@@ -1,0 +1,8 @@
+module StripeAPI.Types.PaymentPagesCheckoutSessionCurrencyConversion where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentPagesCheckoutSessionCurrencyConversion
+instance Show PaymentPagesCheckoutSessionCurrencyConversion
+instance Eq PaymentPagesCheckoutSessionCurrencyConversion
+instance Data.Aeson.FromJSON PaymentPagesCheckoutSessionCurrencyConversion
+instance Data.Aeson.ToJSON PaymentPagesCheckoutSessionCurrencyConversion

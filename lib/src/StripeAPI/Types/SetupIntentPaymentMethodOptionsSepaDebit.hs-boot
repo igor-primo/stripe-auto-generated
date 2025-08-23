@@ -1,0 +1,8 @@
+module StripeAPI.Types.SetupIntentPaymentMethodOptionsSepaDebit where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data SetupIntentPaymentMethodOptionsSepaDebit
+instance Show SetupIntentPaymentMethodOptionsSepaDebit
+instance Eq SetupIntentPaymentMethodOptionsSepaDebit
+instance Data.Aeson.FromJSON SetupIntentPaymentMethodOptionsSepaDebit
+instance Data.Aeson.ToJSON SetupIntentPaymentMethodOptionsSepaDebit

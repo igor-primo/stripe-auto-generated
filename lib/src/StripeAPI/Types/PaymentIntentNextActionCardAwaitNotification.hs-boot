@@ -1,0 +1,8 @@
+module StripeAPI.Types.PaymentIntentNextActionCardAwaitNotification where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentIntentNextActionCardAwaitNotification
+instance Show PaymentIntentNextActionCardAwaitNotification
+instance Eq PaymentIntentNextActionCardAwaitNotification
+instance Data.Aeson.FromJSON PaymentIntentNextActionCardAwaitNotification
+instance Data.Aeson.ToJSON PaymentIntentNextActionCardAwaitNotification

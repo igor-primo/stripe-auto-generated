@@ -1,0 +1,8 @@
+module StripeAPI.Types.PaymentPagesCheckoutSessionPhoneNumberCollection where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentPagesCheckoutSessionPhoneNumberCollection
+instance Show PaymentPagesCheckoutSessionPhoneNumberCollection
+instance Eq PaymentPagesCheckoutSessionPhoneNumberCollection
+instance Data.Aeson.FromJSON PaymentPagesCheckoutSessionPhoneNumberCollection
+instance Data.Aeson.ToJSON PaymentPagesCheckoutSessionPhoneNumberCollection

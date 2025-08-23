@@ -1,0 +1,8 @@
+module StripeAPI.Types.SourceTypeAuBecsDebit where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data SourceTypeAuBecsDebit
+instance Show SourceTypeAuBecsDebit
+instance Eq SourceTypeAuBecsDebit
+instance Data.Aeson.FromJSON SourceTypeAuBecsDebit
+instance Data.Aeson.ToJSON SourceTypeAuBecsDebit

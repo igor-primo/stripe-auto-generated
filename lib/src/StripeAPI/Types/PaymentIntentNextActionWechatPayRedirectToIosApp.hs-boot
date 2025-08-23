@@ -1,0 +1,8 @@
+module StripeAPI.Types.PaymentIntentNextActionWechatPayRedirectToIosApp where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentIntentNextActionWechatPayRedirectToIosApp
+instance Show PaymentIntentNextActionWechatPayRedirectToIosApp
+instance Eq PaymentIntentNextActionWechatPayRedirectToIosApp
+instance Data.Aeson.FromJSON PaymentIntentNextActionWechatPayRedirectToIosApp
+instance Data.Aeson.ToJSON PaymentIntentNextActionWechatPayRedirectToIosApp

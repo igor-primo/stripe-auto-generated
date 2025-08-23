@@ -1,0 +1,13 @@
+module StripeAPI.Types.PaymentMethodOptionsZip where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentMethodOptionsZip
+instance Show PaymentMethodOptionsZip
+instance Eq PaymentMethodOptionsZip
+instance Data.Aeson.FromJSON PaymentMethodOptionsZip
+instance Data.Aeson.ToJSON PaymentMethodOptionsZip
+data PaymentMethodOptionsZipSetupFutureUsage'
+instance Show PaymentMethodOptionsZipSetupFutureUsage'
+instance Eq PaymentMethodOptionsZipSetupFutureUsage'
+instance Data.Aeson.FromJSON PaymentMethodOptionsZipSetupFutureUsage'
+instance Data.Aeson.ToJSON PaymentMethodOptionsZipSetupFutureUsage'

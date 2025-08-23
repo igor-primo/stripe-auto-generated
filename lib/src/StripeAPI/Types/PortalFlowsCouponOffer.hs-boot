@@ -1,0 +1,8 @@
+module StripeAPI.Types.PortalFlowsCouponOffer where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PortalFlowsCouponOffer
+instance Show PortalFlowsCouponOffer
+instance Eq PortalFlowsCouponOffer
+instance Data.Aeson.FromJSON PortalFlowsCouponOffer
+instance Data.Aeson.ToJSON PortalFlowsCouponOffer

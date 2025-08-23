@@ -1,0 +1,8 @@
+module StripeAPI.Types.PortalPaymentMethodUpdate where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PortalPaymentMethodUpdate
+instance Show PortalPaymentMethodUpdate
+instance Eq PortalPaymentMethodUpdate
+instance Data.Aeson.FromJSON PortalPaymentMethodUpdate
+instance Data.Aeson.ToJSON PortalPaymentMethodUpdate

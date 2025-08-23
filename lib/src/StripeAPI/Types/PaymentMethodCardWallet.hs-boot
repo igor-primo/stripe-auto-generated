@@ -1,0 +1,13 @@
+module StripeAPI.Types.PaymentMethodCardWallet where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentMethodCardWallet
+instance Show PaymentMethodCardWallet
+instance Eq PaymentMethodCardWallet
+instance Data.Aeson.FromJSON PaymentMethodCardWallet
+instance Data.Aeson.ToJSON PaymentMethodCardWallet
+data PaymentMethodCardWalletType'
+instance Show PaymentMethodCardWalletType'
+instance Eq PaymentMethodCardWalletType'
+instance Data.Aeson.FromJSON PaymentMethodCardWalletType'
+instance Data.Aeson.ToJSON PaymentMethodCardWalletType'

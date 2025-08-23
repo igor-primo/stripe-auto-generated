@@ -1,0 +1,13 @@
+module StripeAPI.Types.CheckoutAlipayPaymentMethodOptions where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data CheckoutAlipayPaymentMethodOptions
+instance Show CheckoutAlipayPaymentMethodOptions
+instance Eq CheckoutAlipayPaymentMethodOptions
+instance Data.Aeson.FromJSON CheckoutAlipayPaymentMethodOptions
+instance Data.Aeson.ToJSON CheckoutAlipayPaymentMethodOptions
+data CheckoutAlipayPaymentMethodOptionsSetupFutureUsage'
+instance Show CheckoutAlipayPaymentMethodOptionsSetupFutureUsage'
+instance Eq CheckoutAlipayPaymentMethodOptionsSetupFutureUsage'
+instance Data.Aeson.FromJSON CheckoutAlipayPaymentMethodOptionsSetupFutureUsage'
+instance Data.Aeson.ToJSON CheckoutAlipayPaymentMethodOptionsSetupFutureUsage'

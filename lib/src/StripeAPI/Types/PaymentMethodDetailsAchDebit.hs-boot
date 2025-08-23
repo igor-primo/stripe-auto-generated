@@ -1,0 +1,13 @@
+module StripeAPI.Types.PaymentMethodDetailsAchDebit where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentMethodDetailsAchDebit
+instance Show PaymentMethodDetailsAchDebit
+instance Eq PaymentMethodDetailsAchDebit
+instance Data.Aeson.FromJSON PaymentMethodDetailsAchDebit
+instance Data.Aeson.ToJSON PaymentMethodDetailsAchDebit
+data PaymentMethodDetailsAchDebitAccountHolderType'NonNullable
+instance Show PaymentMethodDetailsAchDebitAccountHolderType'NonNullable
+instance Eq PaymentMethodDetailsAchDebitAccountHolderType'NonNullable
+instance Data.Aeson.FromJSON PaymentMethodDetailsAchDebitAccountHolderType'NonNullable
+instance Data.Aeson.ToJSON PaymentMethodDetailsAchDebitAccountHolderType'NonNullable

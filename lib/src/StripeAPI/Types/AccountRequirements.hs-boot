@@ -1,0 +1,13 @@
+module StripeAPI.Types.AccountRequirements where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data AccountRequirements
+instance Show AccountRequirements
+instance Eq AccountRequirements
+instance Data.Aeson.FromJSON AccountRequirements
+instance Data.Aeson.ToJSON AccountRequirements
+data AccountRequirementsDisabledReason'NonNullable
+instance Show AccountRequirementsDisabledReason'NonNullable
+instance Eq AccountRequirementsDisabledReason'NonNullable
+instance Data.Aeson.FromJSON AccountRequirementsDisabledReason'NonNullable
+instance Data.Aeson.ToJSON AccountRequirementsDisabledReason'NonNullable

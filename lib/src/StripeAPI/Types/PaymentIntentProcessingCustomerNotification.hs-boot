@@ -1,0 +1,8 @@
+module StripeAPI.Types.PaymentIntentProcessingCustomerNotification where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentIntentProcessingCustomerNotification
+instance Show PaymentIntentProcessingCustomerNotification
+instance Eq PaymentIntentProcessingCustomerNotification
+instance Data.Aeson.FromJSON PaymentIntentProcessingCustomerNotification
+instance Data.Aeson.ToJSON PaymentIntentProcessingCustomerNotification

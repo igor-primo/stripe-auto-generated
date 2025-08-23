@@ -1,0 +1,8 @@
+module StripeAPI.Types.LineItemsDiscountAmount where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data LineItemsDiscountAmount
+instance Show LineItemsDiscountAmount
+instance Eq LineItemsDiscountAmount
+instance Data.Aeson.FromJSON LineItemsDiscountAmount
+instance Data.Aeson.ToJSON LineItemsDiscountAmount

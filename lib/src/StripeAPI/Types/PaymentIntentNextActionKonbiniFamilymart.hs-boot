@@ -1,0 +1,8 @@
+module StripeAPI.Types.PaymentIntentNextActionKonbiniFamilymart where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentIntentNextActionKonbiniFamilymart
+instance Show PaymentIntentNextActionKonbiniFamilymart
+instance Eq PaymentIntentNextActionKonbiniFamilymart
+instance Data.Aeson.FromJSON PaymentIntentNextActionKonbiniFamilymart
+instance Data.Aeson.ToJSON PaymentIntentNextActionKonbiniFamilymart

@@ -1,0 +1,8 @@
+module StripeAPI.Types.AccountTreasurySettings where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data AccountTreasurySettings
+instance Show AccountTreasurySettings
+instance Eq AccountTreasurySettings
+instance Data.Aeson.FromJSON AccountTreasurySettings
+instance Data.Aeson.ToJSON AccountTreasurySettings

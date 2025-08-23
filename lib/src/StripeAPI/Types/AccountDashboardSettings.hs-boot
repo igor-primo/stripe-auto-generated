@@ -1,0 +1,8 @@
+module StripeAPI.Types.AccountDashboardSettings where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data AccountDashboardSettings
+instance Show AccountDashboardSettings
+instance Eq AccountDashboardSettings
+instance Data.Aeson.FromJSON AccountDashboardSettings
+instance Data.Aeson.ToJSON AccountDashboardSettings

@@ -1,0 +1,8 @@
+module StripeAPI.Types.PaymentMethodDetailsOxxo where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentMethodDetailsOxxo
+instance Show PaymentMethodDetailsOxxo
+instance Eq PaymentMethodDetailsOxxo
+instance Data.Aeson.FromJSON PaymentMethodDetailsOxxo
+instance Data.Aeson.ToJSON PaymentMethodDetailsOxxo

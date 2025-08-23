@@ -1,0 +1,18 @@
+module StripeAPI.Types.PaymentMethodOptionsWechatPay where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentMethodOptionsWechatPay
+instance Show PaymentMethodOptionsWechatPay
+instance Eq PaymentMethodOptionsWechatPay
+instance Data.Aeson.FromJSON PaymentMethodOptionsWechatPay
+instance Data.Aeson.ToJSON PaymentMethodOptionsWechatPay
+data PaymentMethodOptionsWechatPayClient'NonNullable
+instance Show PaymentMethodOptionsWechatPayClient'NonNullable
+instance Eq PaymentMethodOptionsWechatPayClient'NonNullable
+instance Data.Aeson.FromJSON PaymentMethodOptionsWechatPayClient'NonNullable
+instance Data.Aeson.ToJSON PaymentMethodOptionsWechatPayClient'NonNullable
+data PaymentMethodOptionsWechatPaySetupFutureUsage'
+instance Show PaymentMethodOptionsWechatPaySetupFutureUsage'
+instance Eq PaymentMethodOptionsWechatPaySetupFutureUsage'
+instance Data.Aeson.FromJSON PaymentMethodOptionsWechatPaySetupFutureUsage'
+instance Data.Aeson.ToJSON PaymentMethodOptionsWechatPaySetupFutureUsage'

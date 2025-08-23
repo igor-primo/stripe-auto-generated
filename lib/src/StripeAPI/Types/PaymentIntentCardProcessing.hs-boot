@@ -1,0 +1,8 @@
+module StripeAPI.Types.PaymentIntentCardProcessing where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentIntentCardProcessing
+instance Show PaymentIntentCardProcessing
+instance Eq PaymentIntentCardProcessing
+instance Data.Aeson.FromJSON PaymentIntentCardProcessing
+instance Data.Aeson.ToJSON PaymentIntentCardProcessing

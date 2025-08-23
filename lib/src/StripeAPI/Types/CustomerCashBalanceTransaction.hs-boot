@@ -1,0 +1,18 @@
+module StripeAPI.Types.CustomerCashBalanceTransaction where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data CustomerCashBalanceTransaction
+instance Show CustomerCashBalanceTransaction
+instance Eq CustomerCashBalanceTransaction
+instance Data.Aeson.FromJSON CustomerCashBalanceTransaction
+instance Data.Aeson.ToJSON CustomerCashBalanceTransaction
+data CustomerCashBalanceTransactionCustomer'Variants
+instance Show CustomerCashBalanceTransactionCustomer'Variants
+instance Eq CustomerCashBalanceTransactionCustomer'Variants
+instance Data.Aeson.FromJSON CustomerCashBalanceTransactionCustomer'Variants
+instance Data.Aeson.ToJSON CustomerCashBalanceTransactionCustomer'Variants
+data CustomerCashBalanceTransactionType'
+instance Show CustomerCashBalanceTransactionType'
+instance Eq CustomerCashBalanceTransactionType'
+instance Data.Aeson.FromJSON CustomerCashBalanceTransactionType'
+instance Data.Aeson.ToJSON CustomerCashBalanceTransactionType'

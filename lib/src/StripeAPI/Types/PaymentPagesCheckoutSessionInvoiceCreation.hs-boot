@@ -1,0 +1,8 @@
+module StripeAPI.Types.PaymentPagesCheckoutSessionInvoiceCreation where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentPagesCheckoutSessionInvoiceCreation
+instance Show PaymentPagesCheckoutSessionInvoiceCreation
+instance Eq PaymentPagesCheckoutSessionInvoiceCreation
+instance Data.Aeson.FromJSON PaymentPagesCheckoutSessionInvoiceCreation
+instance Data.Aeson.ToJSON PaymentPagesCheckoutSessionInvoiceCreation

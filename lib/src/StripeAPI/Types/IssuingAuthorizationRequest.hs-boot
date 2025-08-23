@@ -1,0 +1,18 @@
+module StripeAPI.Types.IssuingAuthorizationRequest where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data IssuingAuthorizationRequest
+instance Show IssuingAuthorizationRequest
+instance Eq IssuingAuthorizationRequest
+instance Data.Aeson.FromJSON IssuingAuthorizationRequest
+instance Data.Aeson.ToJSON IssuingAuthorizationRequest
+data IssuingAuthorizationRequestAmountDetails'NonNullable
+instance Show IssuingAuthorizationRequestAmountDetails'NonNullable
+instance Eq IssuingAuthorizationRequestAmountDetails'NonNullable
+instance Data.Aeson.FromJSON IssuingAuthorizationRequestAmountDetails'NonNullable
+instance Data.Aeson.ToJSON IssuingAuthorizationRequestAmountDetails'NonNullable
+data IssuingAuthorizationRequestReason'
+instance Show IssuingAuthorizationRequestReason'
+instance Eq IssuingAuthorizationRequestReason'
+instance Data.Aeson.FromJSON IssuingAuthorizationRequestReason'
+instance Data.Aeson.ToJSON IssuingAuthorizationRequestReason'

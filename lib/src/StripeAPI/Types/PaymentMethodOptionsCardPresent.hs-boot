@@ -1,0 +1,8 @@
+module StripeAPI.Types.PaymentMethodOptionsCardPresent where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentMethodOptionsCardPresent
+instance Show PaymentMethodOptionsCardPresent
+instance Eq PaymentMethodOptionsCardPresent
+instance Data.Aeson.FromJSON PaymentMethodOptionsCardPresent
+instance Data.Aeson.ToJSON PaymentMethodOptionsCardPresent

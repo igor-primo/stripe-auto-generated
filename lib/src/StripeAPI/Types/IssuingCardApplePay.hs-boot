@@ -1,0 +1,13 @@
+module StripeAPI.Types.IssuingCardApplePay where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data IssuingCardApplePay
+instance Show IssuingCardApplePay
+instance Eq IssuingCardApplePay
+instance Data.Aeson.FromJSON IssuingCardApplePay
+instance Data.Aeson.ToJSON IssuingCardApplePay
+data IssuingCardApplePayIneligibleReason'NonNullable
+instance Show IssuingCardApplePayIneligibleReason'NonNullable
+instance Eq IssuingCardApplePayIneligibleReason'NonNullable
+instance Data.Aeson.FromJSON IssuingCardApplePayIneligibleReason'NonNullable
+instance Data.Aeson.ToJSON IssuingCardApplePayIneligibleReason'NonNullable

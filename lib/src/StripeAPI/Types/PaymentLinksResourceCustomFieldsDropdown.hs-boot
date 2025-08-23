@@ -1,0 +1,8 @@
+module StripeAPI.Types.PaymentLinksResourceCustomFieldsDropdown where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentLinksResourceCustomFieldsDropdown
+instance Show PaymentLinksResourceCustomFieldsDropdown
+instance Eq PaymentLinksResourceCustomFieldsDropdown
+instance Data.Aeson.FromJSON PaymentLinksResourceCustomFieldsDropdown
+instance Data.Aeson.ToJSON PaymentLinksResourceCustomFieldsDropdown

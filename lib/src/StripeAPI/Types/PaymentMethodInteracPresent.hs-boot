@@ -1,0 +1,18 @@
+module StripeAPI.Types.PaymentMethodInteracPresent where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentMethodInteracPresent
+instance Show PaymentMethodInteracPresent
+instance Eq PaymentMethodInteracPresent
+instance Data.Aeson.FromJSON PaymentMethodInteracPresent
+instance Data.Aeson.ToJSON PaymentMethodInteracPresent
+data PaymentMethodInteracPresentNetworks'NonNullable
+instance Show PaymentMethodInteracPresentNetworks'NonNullable
+instance Eq PaymentMethodInteracPresentNetworks'NonNullable
+instance Data.Aeson.FromJSON PaymentMethodInteracPresentNetworks'NonNullable
+instance Data.Aeson.ToJSON PaymentMethodInteracPresentNetworks'NonNullable
+data PaymentMethodInteracPresentReadMethod'NonNullable
+instance Show PaymentMethodInteracPresentReadMethod'NonNullable
+instance Eq PaymentMethodInteracPresentReadMethod'NonNullable
+instance Data.Aeson.FromJSON PaymentMethodInteracPresentReadMethod'NonNullable
+instance Data.Aeson.ToJSON PaymentMethodInteracPresentReadMethod'NonNullable

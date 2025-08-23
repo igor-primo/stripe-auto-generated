@@ -1,0 +1,8 @@
+module StripeAPI.Types.AccountBacsDebitPaymentsSettings where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data AccountBacsDebitPaymentsSettings
+instance Show AccountBacsDebitPaymentsSettings
+instance Eq AccountBacsDebitPaymentsSettings
+instance Data.Aeson.FromJSON AccountBacsDebitPaymentsSettings
+instance Data.Aeson.ToJSON AccountBacsDebitPaymentsSettings

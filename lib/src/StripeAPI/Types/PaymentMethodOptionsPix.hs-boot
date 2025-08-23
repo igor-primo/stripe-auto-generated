@@ -1,0 +1,18 @@
+module StripeAPI.Types.PaymentMethodOptionsPix where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentMethodOptionsPix
+instance Show PaymentMethodOptionsPix
+instance Eq PaymentMethodOptionsPix
+instance Data.Aeson.FromJSON PaymentMethodOptionsPix
+instance Data.Aeson.ToJSON PaymentMethodOptionsPix
+data PaymentMethodOptionsPixAmountIncludesIof'
+instance Show PaymentMethodOptionsPixAmountIncludesIof'
+instance Eq PaymentMethodOptionsPixAmountIncludesIof'
+instance Data.Aeson.FromJSON PaymentMethodOptionsPixAmountIncludesIof'
+instance Data.Aeson.ToJSON PaymentMethodOptionsPixAmountIncludesIof'
+data PaymentMethodOptionsPixSetupFutureUsage'
+instance Show PaymentMethodOptionsPixSetupFutureUsage'
+instance Eq PaymentMethodOptionsPixSetupFutureUsage'
+instance Data.Aeson.FromJSON PaymentMethodOptionsPixSetupFutureUsage'
+instance Data.Aeson.ToJSON PaymentMethodOptionsPixSetupFutureUsage'

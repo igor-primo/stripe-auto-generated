@@ -1,0 +1,13 @@
+module StripeAPI.Types.DisputePaymentMethodDetailsCard where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data DisputePaymentMethodDetailsCard
+instance Show DisputePaymentMethodDetailsCard
+instance Eq DisputePaymentMethodDetailsCard
+instance Data.Aeson.FromJSON DisputePaymentMethodDetailsCard
+instance Data.Aeson.ToJSON DisputePaymentMethodDetailsCard
+data DisputePaymentMethodDetailsCardCaseType'
+instance Show DisputePaymentMethodDetailsCardCaseType'
+instance Eq DisputePaymentMethodDetailsCardCaseType'
+instance Data.Aeson.FromJSON DisputePaymentMethodDetailsCardCaseType'
+instance Data.Aeson.ToJSON DisputePaymentMethodDetailsCardCaseType'

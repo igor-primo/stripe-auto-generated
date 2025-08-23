@@ -1,0 +1,8 @@
+module StripeAPI.Types.AccountCardIssuingSettings where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data AccountCardIssuingSettings
+instance Show AccountCardIssuingSettings
+instance Eq AccountCardIssuingSettings
+instance Data.Aeson.FromJSON AccountCardIssuingSettings
+instance Data.Aeson.ToJSON AccountCardIssuingSettings

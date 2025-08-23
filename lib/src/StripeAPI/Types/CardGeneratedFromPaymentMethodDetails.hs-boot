@@ -1,0 +1,8 @@
+module StripeAPI.Types.CardGeneratedFromPaymentMethodDetails where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data CardGeneratedFromPaymentMethodDetails
+instance Show CardGeneratedFromPaymentMethodDetails
+instance Eq CardGeneratedFromPaymentMethodDetails
+instance Data.Aeson.FromJSON CardGeneratedFromPaymentMethodDetails
+instance Data.Aeson.ToJSON CardGeneratedFromPaymentMethodDetails

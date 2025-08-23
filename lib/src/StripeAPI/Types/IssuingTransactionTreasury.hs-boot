@@ -1,0 +1,8 @@
+module StripeAPI.Types.IssuingTransactionTreasury where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data IssuingTransactionTreasury
+instance Show IssuingTransactionTreasury
+instance Eq IssuingTransactionTreasury
+instance Data.Aeson.FromJSON IssuingTransactionTreasury
+instance Data.Aeson.ToJSON IssuingTransactionTreasury

@@ -1,0 +1,8 @@
+module StripeAPI.Types.PaymentIntentNextActionKonbiniLawson where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentIntentNextActionKonbiniLawson
+instance Show PaymentIntentNextActionKonbiniLawson
+instance Eq PaymentIntentNextActionKonbiniLawson
+instance Data.Aeson.FromJSON PaymentIntentNextActionKonbiniLawson
+instance Data.Aeson.ToJSON PaymentIntentNextActionKonbiniLawson

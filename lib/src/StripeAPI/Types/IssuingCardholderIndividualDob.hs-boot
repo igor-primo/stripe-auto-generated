@@ -1,0 +1,8 @@
+module StripeAPI.Types.IssuingCardholderIndividualDob where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data IssuingCardholderIndividualDob
+instance Show IssuingCardholderIndividualDob
+instance Eq IssuingCardholderIndividualDob
+instance Data.Aeson.FromJSON IssuingCardholderIndividualDob
+instance Data.Aeson.ToJSON IssuingCardholderIndividualDob

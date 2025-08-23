@@ -1,0 +1,8 @@
+module StripeAPI.Types.PaymentIntentNextActionPixDisplayQrCode where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentIntentNextActionPixDisplayQrCode
+instance Show PaymentIntentNextActionPixDisplayQrCode
+instance Eq PaymentIntentNextActionPixDisplayQrCode
+instance Data.Aeson.FromJSON PaymentIntentNextActionPixDisplayQrCode
+instance Data.Aeson.ToJSON PaymentIntentNextActionPixDisplayQrCode

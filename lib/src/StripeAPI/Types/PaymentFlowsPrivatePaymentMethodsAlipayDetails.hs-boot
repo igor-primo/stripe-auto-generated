@@ -1,0 +1,8 @@
+module StripeAPI.Types.PaymentFlowsPrivatePaymentMethodsAlipayDetails where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentFlowsPrivatePaymentMethodsAlipayDetails
+instance Show PaymentFlowsPrivatePaymentMethodsAlipayDetails
+instance Eq PaymentFlowsPrivatePaymentMethodsAlipayDetails
+instance Data.Aeson.FromJSON PaymentFlowsPrivatePaymentMethodsAlipayDetails
+instance Data.Aeson.ToJSON PaymentFlowsPrivatePaymentMethodsAlipayDetails

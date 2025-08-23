@@ -1,0 +1,13 @@
+module StripeAPI.Types.BillingPortal_Configuration where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data BillingPortal'configuration
+instance Show BillingPortal'configuration
+instance Eq BillingPortal'configuration
+instance Data.Aeson.FromJSON BillingPortal'configuration
+instance Data.Aeson.ToJSON BillingPortal'configuration
+data BillingPortal'configurationApplication'NonNullableVariants
+instance Show BillingPortal'configurationApplication'NonNullableVariants
+instance Eq BillingPortal'configurationApplication'NonNullableVariants
+instance Data.Aeson.FromJSON BillingPortal'configurationApplication'NonNullableVariants
+instance Data.Aeson.ToJSON BillingPortal'configurationApplication'NonNullableVariants

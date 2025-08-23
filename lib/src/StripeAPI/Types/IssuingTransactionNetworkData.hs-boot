@@ -1,0 +1,8 @@
+module StripeAPI.Types.IssuingTransactionNetworkData where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data IssuingTransactionNetworkData
+instance Show IssuingTransactionNetworkData
+instance Eq IssuingTransactionNetworkData
+instance Data.Aeson.FromJSON IssuingTransactionNetworkData
+instance Data.Aeson.ToJSON IssuingTransactionNetworkData

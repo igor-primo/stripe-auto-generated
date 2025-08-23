@@ -1,0 +1,8 @@
+module StripeAPI.Types.SetupIntentNextActionRedirectToUrl where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data SetupIntentNextActionRedirectToUrl
+instance Show SetupIntentNextActionRedirectToUrl
+instance Eq SetupIntentNextActionRedirectToUrl
+instance Data.Aeson.FromJSON SetupIntentNextActionRedirectToUrl
+instance Data.Aeson.ToJSON SetupIntentNextActionRedirectToUrl

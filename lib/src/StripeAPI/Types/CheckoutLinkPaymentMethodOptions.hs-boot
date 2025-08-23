@@ -1,0 +1,13 @@
+module StripeAPI.Types.CheckoutLinkPaymentMethodOptions where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data CheckoutLinkPaymentMethodOptions
+instance Show CheckoutLinkPaymentMethodOptions
+instance Eq CheckoutLinkPaymentMethodOptions
+instance Data.Aeson.FromJSON CheckoutLinkPaymentMethodOptions
+instance Data.Aeson.ToJSON CheckoutLinkPaymentMethodOptions
+data CheckoutLinkPaymentMethodOptionsSetupFutureUsage'
+instance Show CheckoutLinkPaymentMethodOptionsSetupFutureUsage'
+instance Eq CheckoutLinkPaymentMethodOptionsSetupFutureUsage'
+instance Data.Aeson.FromJSON CheckoutLinkPaymentMethodOptionsSetupFutureUsage'
+instance Data.Aeson.ToJSON CheckoutLinkPaymentMethodOptionsSetupFutureUsage'

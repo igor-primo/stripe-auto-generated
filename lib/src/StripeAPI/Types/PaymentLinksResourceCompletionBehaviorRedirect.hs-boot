@@ -1,0 +1,8 @@
+module StripeAPI.Types.PaymentLinksResourceCompletionBehaviorRedirect where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentLinksResourceCompletionBehaviorRedirect
+instance Show PaymentLinksResourceCompletionBehaviorRedirect
+instance Eq PaymentLinksResourceCompletionBehaviorRedirect
+instance Data.Aeson.FromJSON PaymentLinksResourceCompletionBehaviorRedirect
+instance Data.Aeson.ToJSON PaymentLinksResourceCompletionBehaviorRedirect

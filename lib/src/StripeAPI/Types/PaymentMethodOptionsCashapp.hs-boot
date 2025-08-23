@@ -1,0 +1,18 @@
+module StripeAPI.Types.PaymentMethodOptionsCashapp where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentMethodOptionsCashapp
+instance Show PaymentMethodOptionsCashapp
+instance Eq PaymentMethodOptionsCashapp
+instance Data.Aeson.FromJSON PaymentMethodOptionsCashapp
+instance Data.Aeson.ToJSON PaymentMethodOptionsCashapp
+data PaymentMethodOptionsCashappCaptureMethod'
+instance Show PaymentMethodOptionsCashappCaptureMethod'
+instance Eq PaymentMethodOptionsCashappCaptureMethod'
+instance Data.Aeson.FromJSON PaymentMethodOptionsCashappCaptureMethod'
+instance Data.Aeson.ToJSON PaymentMethodOptionsCashappCaptureMethod'
+data PaymentMethodOptionsCashappSetupFutureUsage'
+instance Show PaymentMethodOptionsCashappSetupFutureUsage'
+instance Eq PaymentMethodOptionsCashappSetupFutureUsage'
+instance Data.Aeson.FromJSON PaymentMethodOptionsCashappSetupFutureUsage'
+instance Data.Aeson.ToJSON PaymentMethodOptionsCashappSetupFutureUsage'

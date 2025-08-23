@@ -1,0 +1,8 @@
+module StripeAPI.Types.PaymentLinksResourceCustomTextPosition where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentLinksResourceCustomTextPosition
+instance Show PaymentLinksResourceCustomTextPosition
+instance Eq PaymentLinksResourceCustomTextPosition
+instance Data.Aeson.FromJSON PaymentLinksResourceCustomTextPosition
+instance Data.Aeson.ToJSON PaymentLinksResourceCustomTextPosition

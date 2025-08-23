@@ -1,0 +1,13 @@
+module StripeAPI.Types.PortalSubscriptionCancellationReason where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PortalSubscriptionCancellationReason
+instance Show PortalSubscriptionCancellationReason
+instance Eq PortalSubscriptionCancellationReason
+instance Data.Aeson.FromJSON PortalSubscriptionCancellationReason
+instance Data.Aeson.ToJSON PortalSubscriptionCancellationReason
+data PortalSubscriptionCancellationReasonOptions'
+instance Show PortalSubscriptionCancellationReasonOptions'
+instance Eq PortalSubscriptionCancellationReasonOptions'
+instance Data.Aeson.FromJSON PortalSubscriptionCancellationReasonOptions'
+instance Data.Aeson.ToJSON PortalSubscriptionCancellationReasonOptions'

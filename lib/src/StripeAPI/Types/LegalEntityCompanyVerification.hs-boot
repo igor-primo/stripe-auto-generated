@@ -1,0 +1,8 @@
+module StripeAPI.Types.LegalEntityCompanyVerification where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data LegalEntityCompanyVerification
+instance Show LegalEntityCompanyVerification
+instance Eq LegalEntityCompanyVerification
+instance Data.Aeson.FromJSON LegalEntityCompanyVerification
+instance Data.Aeson.ToJSON LegalEntityCompanyVerification

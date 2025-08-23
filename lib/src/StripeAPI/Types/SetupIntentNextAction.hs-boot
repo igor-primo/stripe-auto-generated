@@ -1,0 +1,8 @@
+module StripeAPI.Types.SetupIntentNextAction where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data SetupIntentNextAction
+instance Show SetupIntentNextAction
+instance Eq SetupIntentNextAction
+instance Data.Aeson.FromJSON SetupIntentNextAction
+instance Data.Aeson.ToJSON SetupIntentNextAction

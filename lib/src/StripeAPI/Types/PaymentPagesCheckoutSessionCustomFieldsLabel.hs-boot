@@ -1,0 +1,8 @@
+module StripeAPI.Types.PaymentPagesCheckoutSessionCustomFieldsLabel where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentPagesCheckoutSessionCustomFieldsLabel
+instance Show PaymentPagesCheckoutSessionCustomFieldsLabel
+instance Eq PaymentPagesCheckoutSessionCustomFieldsLabel
+instance Data.Aeson.FromJSON PaymentPagesCheckoutSessionCustomFieldsLabel
+instance Data.Aeson.ToJSON PaymentPagesCheckoutSessionCustomFieldsLabel

@@ -1,0 +1,8 @@
+module StripeAPI.Types.SourceCodeVerificationFlow where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data SourceCodeVerificationFlow
+instance Show SourceCodeVerificationFlow
+instance Eq SourceCodeVerificationFlow
+instance Data.Aeson.FromJSON SourceCodeVerificationFlow
+instance Data.Aeson.ToJSON SourceCodeVerificationFlow

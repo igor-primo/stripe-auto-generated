@@ -1,0 +1,8 @@
+module StripeAPI.Types.CheckoutCardInstallmentsOptions where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data CheckoutCardInstallmentsOptions
+instance Show CheckoutCardInstallmentsOptions
+instance Eq CheckoutCardInstallmentsOptions
+instance Data.Aeson.FromJSON CheckoutCardInstallmentsOptions
+instance Data.Aeson.ToJSON CheckoutCardInstallmentsOptions

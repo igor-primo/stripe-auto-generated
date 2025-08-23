@@ -1,0 +1,8 @@
+module StripeAPI.Types.IssuingTransactionFlightDataLeg where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data IssuingTransactionFlightDataLeg
+instance Show IssuingTransactionFlightDataLeg
+instance Eq IssuingTransactionFlightDataLeg
+instance Data.Aeson.FromJSON IssuingTransactionFlightDataLeg
+instance Data.Aeson.ToJSON IssuingTransactionFlightDataLeg

@@ -1,0 +1,13 @@
+module StripeAPI.Types.PaymentLinksResourceShippingOption where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentLinksResourceShippingOption
+instance Show PaymentLinksResourceShippingOption
+instance Eq PaymentLinksResourceShippingOption
+instance Data.Aeson.FromJSON PaymentLinksResourceShippingOption
+instance Data.Aeson.ToJSON PaymentLinksResourceShippingOption
+data PaymentLinksResourceShippingOptionShippingRate'Variants
+instance Show PaymentLinksResourceShippingOptionShippingRate'Variants
+instance Eq PaymentLinksResourceShippingOptionShippingRate'Variants
+instance Data.Aeson.FromJSON PaymentLinksResourceShippingOptionShippingRate'Variants
+instance Data.Aeson.ToJSON PaymentLinksResourceShippingOptionShippingRate'Variants

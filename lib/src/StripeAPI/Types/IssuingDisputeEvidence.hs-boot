@@ -1,0 +1,13 @@
+module StripeAPI.Types.IssuingDisputeEvidence where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data IssuingDisputeEvidence
+instance Show IssuingDisputeEvidence
+instance Eq IssuingDisputeEvidence
+instance Data.Aeson.FromJSON IssuingDisputeEvidence
+instance Data.Aeson.ToJSON IssuingDisputeEvidence
+data IssuingDisputeEvidenceReason'
+instance Show IssuingDisputeEvidenceReason'
+instance Eq IssuingDisputeEvidenceReason'
+instance Data.Aeson.FromJSON IssuingDisputeEvidenceReason'
+instance Data.Aeson.ToJSON IssuingDisputeEvidenceReason'

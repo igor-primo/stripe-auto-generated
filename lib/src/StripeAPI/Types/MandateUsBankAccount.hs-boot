@@ -1,0 +1,13 @@
+module StripeAPI.Types.MandateUsBankAccount where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data MandateUsBankAccount
+instance Show MandateUsBankAccount
+instance Eq MandateUsBankAccount
+instance Data.Aeson.FromJSON MandateUsBankAccount
+instance Data.Aeson.ToJSON MandateUsBankAccount
+data MandateUsBankAccountCollectionMethod'
+instance Show MandateUsBankAccountCollectionMethod'
+instance Eq MandateUsBankAccountCollectionMethod'
+instance Data.Aeson.FromJSON MandateUsBankAccountCollectionMethod'
+instance Data.Aeson.ToJSON MandateUsBankAccountCollectionMethod'

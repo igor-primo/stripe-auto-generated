@@ -1,0 +1,33 @@
+module StripeAPI.Types.BankAccount where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data BankAccount
+instance Show BankAccount
+instance Eq BankAccount
+instance Data.Aeson.FromJSON BankAccount
+instance Data.Aeson.ToJSON BankAccount
+data BankAccountAccount'NonNullableVariants
+instance Show BankAccountAccount'NonNullableVariants
+instance Eq BankAccountAccount'NonNullableVariants
+instance Data.Aeson.FromJSON BankAccountAccount'NonNullableVariants
+instance Data.Aeson.ToJSON BankAccountAccount'NonNullableVariants
+data BankAccountAvailablePayoutMethods'NonNullable
+instance Show BankAccountAvailablePayoutMethods'NonNullable
+instance Eq BankAccountAvailablePayoutMethods'NonNullable
+instance Data.Aeson.FromJSON BankAccountAvailablePayoutMethods'NonNullable
+instance Data.Aeson.ToJSON BankAccountAvailablePayoutMethods'NonNullable
+data BankAccountCustomer'NonNullableVariants
+instance Show BankAccountCustomer'NonNullableVariants
+instance Eq BankAccountCustomer'NonNullableVariants
+instance Data.Aeson.FromJSON BankAccountCustomer'NonNullableVariants
+instance Data.Aeson.ToJSON BankAccountCustomer'NonNullableVariants
+data BankAccountFutureRequirements'NonNullable
+instance Show BankAccountFutureRequirements'NonNullable
+instance Eq BankAccountFutureRequirements'NonNullable
+instance Data.Aeson.FromJSON BankAccountFutureRequirements'NonNullable
+instance Data.Aeson.ToJSON BankAccountFutureRequirements'NonNullable
+data BankAccountRequirements'NonNullable
+instance Show BankAccountRequirements'NonNullable
+instance Eq BankAccountRequirements'NonNullable
+instance Data.Aeson.FromJSON BankAccountRequirements'NonNullable
+instance Data.Aeson.ToJSON BankAccountRequirements'NonNullable

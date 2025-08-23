@@ -1,0 +1,8 @@
+module StripeAPI.Types.RadarReviewResourceSession where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data RadarReviewResourceSession
+instance Show RadarReviewResourceSession
+instance Eq RadarReviewResourceSession
+instance Data.Aeson.FromJSON RadarReviewResourceSession
+instance Data.Aeson.ToJSON RadarReviewResourceSession

@@ -1,0 +1,8 @@
+module StripeAPI.Types.LegalEntityUboDeclaration where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data LegalEntityUboDeclaration
+instance Show LegalEntityUboDeclaration
+instance Eq LegalEntityUboDeclaration
+instance Data.Aeson.FromJSON LegalEntityUboDeclaration
+instance Data.Aeson.ToJSON LegalEntityUboDeclaration

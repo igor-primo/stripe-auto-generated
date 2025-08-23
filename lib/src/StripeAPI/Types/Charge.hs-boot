@@ -1,0 +1,108 @@
+module StripeAPI.Types.Charge where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data Charge
+instance Show Charge
+instance Eq Charge
+instance Data.Aeson.FromJSON Charge
+instance Data.Aeson.ToJSON Charge
+data ChargeApplication'NonNullableVariants
+instance Show ChargeApplication'NonNullableVariants
+instance Eq ChargeApplication'NonNullableVariants
+instance Data.Aeson.FromJSON ChargeApplication'NonNullableVariants
+instance Data.Aeson.ToJSON ChargeApplication'NonNullableVariants
+data ChargeApplicationFee'NonNullableVariants
+instance Show ChargeApplicationFee'NonNullableVariants
+instance Eq ChargeApplicationFee'NonNullableVariants
+instance Data.Aeson.FromJSON ChargeApplicationFee'NonNullableVariants
+instance Data.Aeson.ToJSON ChargeApplicationFee'NonNullableVariants
+data ChargeBalanceTransaction'NonNullableVariants
+instance Show ChargeBalanceTransaction'NonNullableVariants
+instance Eq ChargeBalanceTransaction'NonNullableVariants
+instance Data.Aeson.FromJSON ChargeBalanceTransaction'NonNullableVariants
+instance Data.Aeson.ToJSON ChargeBalanceTransaction'NonNullableVariants
+data ChargeCustomer'NonNullableVariants
+instance Show ChargeCustomer'NonNullableVariants
+instance Eq ChargeCustomer'NonNullableVariants
+instance Data.Aeson.FromJSON ChargeCustomer'NonNullableVariants
+instance Data.Aeson.ToJSON ChargeCustomer'NonNullableVariants
+data ChargeFailureBalanceTransaction'NonNullableVariants
+instance Show ChargeFailureBalanceTransaction'NonNullableVariants
+instance Eq ChargeFailureBalanceTransaction'NonNullableVariants
+instance Data.Aeson.FromJSON ChargeFailureBalanceTransaction'NonNullableVariants
+instance Data.Aeson.ToJSON ChargeFailureBalanceTransaction'NonNullableVariants
+data ChargeFraudDetails'NonNullable
+instance Show ChargeFraudDetails'NonNullable
+instance Eq ChargeFraudDetails'NonNullable
+instance Data.Aeson.FromJSON ChargeFraudDetails'NonNullable
+instance Data.Aeson.ToJSON ChargeFraudDetails'NonNullable
+data ChargeOnBehalfOf'NonNullableVariants
+instance Show ChargeOnBehalfOf'NonNullableVariants
+instance Eq ChargeOnBehalfOf'NonNullableVariants
+instance Data.Aeson.FromJSON ChargeOnBehalfOf'NonNullableVariants
+instance Data.Aeson.ToJSON ChargeOnBehalfOf'NonNullableVariants
+data ChargeOutcome'NonNullable
+instance Show ChargeOutcome'NonNullable
+instance Eq ChargeOutcome'NonNullable
+instance Data.Aeson.FromJSON ChargeOutcome'NonNullable
+instance Data.Aeson.ToJSON ChargeOutcome'NonNullable
+data ChargeOutcome'NonNullableAdviceCode'NonNullable
+instance Show ChargeOutcome'NonNullableAdviceCode'NonNullable
+instance Eq ChargeOutcome'NonNullableAdviceCode'NonNullable
+instance Data.Aeson.FromJSON ChargeOutcome'NonNullableAdviceCode'NonNullable
+instance Data.Aeson.ToJSON ChargeOutcome'NonNullableAdviceCode'NonNullable
+data ChargeOutcome'NonNullableRule'Variants
+instance Show ChargeOutcome'NonNullableRule'Variants
+instance Eq ChargeOutcome'NonNullableRule'Variants
+instance Data.Aeson.FromJSON ChargeOutcome'NonNullableRule'Variants
+instance Data.Aeson.ToJSON ChargeOutcome'NonNullableRule'Variants
+data ChargePaymentIntent'NonNullableVariants
+instance Show ChargePaymentIntent'NonNullableVariants
+instance Eq ChargePaymentIntent'NonNullableVariants
+instance Data.Aeson.FromJSON ChargePaymentIntent'NonNullableVariants
+instance Data.Aeson.ToJSON ChargePaymentIntent'NonNullableVariants
+data ChargePaymentMethodDetails'NonNullable
+instance Show ChargePaymentMethodDetails'NonNullable
+instance Eq ChargePaymentMethodDetails'NonNullable
+instance Data.Aeson.FromJSON ChargePaymentMethodDetails'NonNullable
+instance Data.Aeson.ToJSON ChargePaymentMethodDetails'NonNullable
+data ChargeRefunds'NonNullable
+instance Show ChargeRefunds'NonNullable
+instance Eq ChargeRefunds'NonNullable
+instance Data.Aeson.FromJSON ChargeRefunds'NonNullable
+instance Data.Aeson.ToJSON ChargeRefunds'NonNullable
+data ChargeReview'NonNullableVariants
+instance Show ChargeReview'NonNullableVariants
+instance Eq ChargeReview'NonNullableVariants
+instance Data.Aeson.FromJSON ChargeReview'NonNullableVariants
+instance Data.Aeson.ToJSON ChargeReview'NonNullableVariants
+data ChargeShipping'NonNullable
+instance Show ChargeShipping'NonNullable
+instance Eq ChargeShipping'NonNullable
+instance Data.Aeson.FromJSON ChargeShipping'NonNullable
+instance Data.Aeson.ToJSON ChargeShipping'NonNullable
+data ChargeSourceTransfer'NonNullableVariants
+instance Show ChargeSourceTransfer'NonNullableVariants
+instance Eq ChargeSourceTransfer'NonNullableVariants
+instance Data.Aeson.FromJSON ChargeSourceTransfer'NonNullableVariants
+instance Data.Aeson.ToJSON ChargeSourceTransfer'NonNullableVariants
+data ChargeStatus'
+instance Show ChargeStatus'
+instance Eq ChargeStatus'
+instance Data.Aeson.FromJSON ChargeStatus'
+instance Data.Aeson.ToJSON ChargeStatus'
+data ChargeTransfer'Variants
+instance Show ChargeTransfer'Variants
+instance Eq ChargeTransfer'Variants
+instance Data.Aeson.FromJSON ChargeTransfer'Variants
+instance Data.Aeson.ToJSON ChargeTransfer'Variants
+data ChargeTransferData'NonNullable
+instance Show ChargeTransferData'NonNullable
+instance Eq ChargeTransferData'NonNullable
+instance Data.Aeson.FromJSON ChargeTransferData'NonNullable
+instance Data.Aeson.ToJSON ChargeTransferData'NonNullable
+data ChargeTransferData'NonNullableDestination'Variants
+instance Show ChargeTransferData'NonNullableDestination'Variants
+instance Eq ChargeTransferData'NonNullableDestination'Variants
+instance Data.Aeson.FromJSON ChargeTransferData'NonNullableDestination'Variants
+instance Data.Aeson.ToJSON ChargeTransferData'NonNullableDestination'Variants

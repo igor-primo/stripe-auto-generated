@@ -1,0 +1,13 @@
+module StripeAPI.Types.PaymentMethodOptionsGrabpay where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentMethodOptionsGrabpay
+instance Show PaymentMethodOptionsGrabpay
+instance Eq PaymentMethodOptionsGrabpay
+instance Data.Aeson.FromJSON PaymentMethodOptionsGrabpay
+instance Data.Aeson.ToJSON PaymentMethodOptionsGrabpay
+data PaymentMethodOptionsGrabpaySetupFutureUsage'
+instance Show PaymentMethodOptionsGrabpaySetupFutureUsage'
+instance Eq PaymentMethodOptionsGrabpaySetupFutureUsage'
+instance Data.Aeson.FromJSON PaymentMethodOptionsGrabpaySetupFutureUsage'
+instance Data.Aeson.ToJSON PaymentMethodOptionsGrabpaySetupFutureUsage'

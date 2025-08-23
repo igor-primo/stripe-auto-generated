@@ -1,0 +1,8 @@
+module StripeAPI.Types.SourceTypeThreeDSecure where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data SourceTypeThreeDSecure
+instance Show SourceTypeThreeDSecure
+instance Eq SourceTypeThreeDSecure
+instance Data.Aeson.FromJSON SourceTypeThreeDSecure
+instance Data.Aeson.ToJSON SourceTypeThreeDSecure

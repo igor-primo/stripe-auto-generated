@@ -1,0 +1,53 @@
+module StripeAPI.Types.Topup where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data Topup
+instance Show Topup
+instance Eq Topup
+instance Data.Aeson.FromJSON Topup
+instance Data.Aeson.ToJSON Topup
+data TopupBalanceTransaction'NonNullableVariants
+instance Show TopupBalanceTransaction'NonNullableVariants
+instance Eq TopupBalanceTransaction'NonNullableVariants
+instance Data.Aeson.FromJSON TopupBalanceTransaction'NonNullableVariants
+instance Data.Aeson.ToJSON TopupBalanceTransaction'NonNullableVariants
+data TopupSource'NonNullable
+instance Show TopupSource'NonNullable
+instance Eq TopupSource'NonNullable
+instance Data.Aeson.FromJSON TopupSource'NonNullable
+instance Data.Aeson.ToJSON TopupSource'NonNullable
+data TopupSource'NonNullableAllowRedisplay'NonNullable
+instance Show TopupSource'NonNullableAllowRedisplay'NonNullable
+instance Eq TopupSource'NonNullableAllowRedisplay'NonNullable
+instance Data.Aeson.FromJSON TopupSource'NonNullableAllowRedisplay'NonNullable
+instance Data.Aeson.ToJSON TopupSource'NonNullableAllowRedisplay'NonNullable
+data TopupSource'NonNullableObject'
+instance Show TopupSource'NonNullableObject'
+instance Eq TopupSource'NonNullableObject'
+instance Data.Aeson.FromJSON TopupSource'NonNullableObject'
+instance Data.Aeson.ToJSON TopupSource'NonNullableObject'
+data TopupSource'NonNullableOwner'NonNullable
+instance Show TopupSource'NonNullableOwner'NonNullable
+instance Eq TopupSource'NonNullableOwner'NonNullable
+instance Data.Aeson.FromJSON TopupSource'NonNullableOwner'NonNullable
+instance Data.Aeson.ToJSON TopupSource'NonNullableOwner'NonNullable
+data TopupSource'NonNullableOwner'NonNullableAddress'NonNullable
+instance Show TopupSource'NonNullableOwner'NonNullableAddress'NonNullable
+instance Eq TopupSource'NonNullableOwner'NonNullableAddress'NonNullable
+instance Data.Aeson.FromJSON TopupSource'NonNullableOwner'NonNullableAddress'NonNullable
+instance Data.Aeson.ToJSON TopupSource'NonNullableOwner'NonNullableAddress'NonNullable
+data TopupSource'NonNullableOwner'NonNullableVerifiedAddress'NonNullable
+instance Show TopupSource'NonNullableOwner'NonNullableVerifiedAddress'NonNullable
+instance Eq TopupSource'NonNullableOwner'NonNullableVerifiedAddress'NonNullable
+instance Data.Aeson.FromJSON TopupSource'NonNullableOwner'NonNullableVerifiedAddress'NonNullable
+instance Data.Aeson.ToJSON TopupSource'NonNullableOwner'NonNullableVerifiedAddress'NonNullable
+data TopupSource'NonNullableType'
+instance Show TopupSource'NonNullableType'
+instance Eq TopupSource'NonNullableType'
+instance Data.Aeson.FromJSON TopupSource'NonNullableType'
+instance Data.Aeson.ToJSON TopupSource'NonNullableType'
+data TopupStatus'
+instance Show TopupStatus'
+instance Eq TopupStatus'
+instance Data.Aeson.FromJSON TopupStatus'
+instance Data.Aeson.ToJSON TopupStatus'

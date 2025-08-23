@@ -1,0 +1,8 @@
+module StripeAPI.Types.PaymentPagesCheckoutSessionCustomTextPosition where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentPagesCheckoutSessionCustomTextPosition
+instance Show PaymentPagesCheckoutSessionCustomTextPosition
+instance Eq PaymentPagesCheckoutSessionCustomTextPosition
+instance Data.Aeson.FromJSON PaymentPagesCheckoutSessionCustomTextPosition
+instance Data.Aeson.ToJSON PaymentPagesCheckoutSessionCustomTextPosition

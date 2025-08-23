@@ -1,0 +1,8 @@
+module StripeAPI.Types.PaymentMethodDetailsWechatPay where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentMethodDetailsWechatPay
+instance Show PaymentMethodDetailsWechatPay
+instance Eq PaymentMethodDetailsWechatPay
+instance Data.Aeson.FromJSON PaymentMethodDetailsWechatPay
+instance Data.Aeson.ToJSON PaymentMethodDetailsWechatPay

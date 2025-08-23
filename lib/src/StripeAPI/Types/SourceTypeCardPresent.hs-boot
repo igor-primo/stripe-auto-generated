@@ -1,0 +1,8 @@
+module StripeAPI.Types.SourceTypeCardPresent where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data SourceTypeCardPresent
+instance Show SourceTypeCardPresent
+instance Eq SourceTypeCardPresent
+instance Data.Aeson.FromJSON SourceTypeCardPresent
+instance Data.Aeson.ToJSON SourceTypeCardPresent

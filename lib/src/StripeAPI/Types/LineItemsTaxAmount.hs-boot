@@ -1,0 +1,13 @@
+module StripeAPI.Types.LineItemsTaxAmount where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data LineItemsTaxAmount
+instance Show LineItemsTaxAmount
+instance Eq LineItemsTaxAmount
+instance Data.Aeson.FromJSON LineItemsTaxAmount
+instance Data.Aeson.ToJSON LineItemsTaxAmount
+data LineItemsTaxAmountTaxabilityReason'NonNullable
+instance Show LineItemsTaxAmountTaxabilityReason'NonNullable
+instance Eq LineItemsTaxAmountTaxabilityReason'NonNullable
+instance Data.Aeson.FromJSON LineItemsTaxAmountTaxabilityReason'NonNullable
+instance Data.Aeson.ToJSON LineItemsTaxAmountTaxabilityReason'NonNullable

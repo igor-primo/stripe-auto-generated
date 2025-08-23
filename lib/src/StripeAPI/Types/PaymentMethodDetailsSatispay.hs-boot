@@ -1,0 +1,8 @@
+module StripeAPI.Types.PaymentMethodDetailsSatispay where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentMethodDetailsSatispay
+instance Show PaymentMethodDetailsSatispay
+instance Eq PaymentMethodDetailsSatispay
+instance Data.Aeson.FromJSON PaymentMethodDetailsSatispay
+instance Data.Aeson.ToJSON PaymentMethodDetailsSatispay

@@ -1,0 +1,13 @@
+module StripeAPI.Types.PaymentLinksResourceAfterCompletion where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentLinksResourceAfterCompletion
+instance Show PaymentLinksResourceAfterCompletion
+instance Eq PaymentLinksResourceAfterCompletion
+instance Data.Aeson.FromJSON PaymentLinksResourceAfterCompletion
+instance Data.Aeson.ToJSON PaymentLinksResourceAfterCompletion
+data PaymentLinksResourceAfterCompletionType'
+instance Show PaymentLinksResourceAfterCompletionType'
+instance Eq PaymentLinksResourceAfterCompletionType'
+instance Data.Aeson.FromJSON PaymentLinksResourceAfterCompletionType'
+instance Data.Aeson.ToJSON PaymentLinksResourceAfterCompletionType'

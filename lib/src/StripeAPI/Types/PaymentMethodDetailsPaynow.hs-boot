@@ -1,0 +1,8 @@
+module StripeAPI.Types.PaymentMethodDetailsPaynow where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentMethodDetailsPaynow
+instance Show PaymentMethodDetailsPaynow
+instance Eq PaymentMethodDetailsPaynow
+instance Data.Aeson.FromJSON PaymentMethodDetailsPaynow
+instance Data.Aeson.ToJSON PaymentMethodDetailsPaynow

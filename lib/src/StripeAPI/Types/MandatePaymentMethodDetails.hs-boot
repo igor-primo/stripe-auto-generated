@@ -1,0 +1,8 @@
+module StripeAPI.Types.MandatePaymentMethodDetails where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data MandatePaymentMethodDetails
+instance Show MandatePaymentMethodDetails
+instance Eq MandatePaymentMethodDetails
+instance Data.Aeson.FromJSON MandatePaymentMethodDetails
+instance Data.Aeson.ToJSON MandatePaymentMethodDetails

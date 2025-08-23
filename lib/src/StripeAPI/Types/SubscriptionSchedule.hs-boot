@@ -1,0 +1,43 @@
+module StripeAPI.Types.SubscriptionSchedule where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data SubscriptionSchedule
+instance Show SubscriptionSchedule
+instance Eq SubscriptionSchedule
+instance Data.Aeson.FromJSON SubscriptionSchedule
+instance Data.Aeson.ToJSON SubscriptionSchedule
+data SubscriptionScheduleApplication'NonNullableVariants
+instance Show SubscriptionScheduleApplication'NonNullableVariants
+instance Eq SubscriptionScheduleApplication'NonNullableVariants
+instance Data.Aeson.FromJSON SubscriptionScheduleApplication'NonNullableVariants
+instance Data.Aeson.ToJSON SubscriptionScheduleApplication'NonNullableVariants
+data SubscriptionScheduleCurrentPhase'NonNullable
+instance Show SubscriptionScheduleCurrentPhase'NonNullable
+instance Eq SubscriptionScheduleCurrentPhase'NonNullable
+instance Data.Aeson.FromJSON SubscriptionScheduleCurrentPhase'NonNullable
+instance Data.Aeson.ToJSON SubscriptionScheduleCurrentPhase'NonNullable
+data SubscriptionScheduleCustomer'Variants
+instance Show SubscriptionScheduleCustomer'Variants
+instance Eq SubscriptionScheduleCustomer'Variants
+instance Data.Aeson.FromJSON SubscriptionScheduleCustomer'Variants
+instance Data.Aeson.ToJSON SubscriptionScheduleCustomer'Variants
+data SubscriptionScheduleEndBehavior'
+instance Show SubscriptionScheduleEndBehavior'
+instance Eq SubscriptionScheduleEndBehavior'
+instance Data.Aeson.FromJSON SubscriptionScheduleEndBehavior'
+instance Data.Aeson.ToJSON SubscriptionScheduleEndBehavior'
+data SubscriptionScheduleStatus'
+instance Show SubscriptionScheduleStatus'
+instance Eq SubscriptionScheduleStatus'
+instance Data.Aeson.FromJSON SubscriptionScheduleStatus'
+instance Data.Aeson.ToJSON SubscriptionScheduleStatus'
+data SubscriptionScheduleSubscription'NonNullableVariants
+instance Show SubscriptionScheduleSubscription'NonNullableVariants
+instance Eq SubscriptionScheduleSubscription'NonNullableVariants
+instance Data.Aeson.FromJSON SubscriptionScheduleSubscription'NonNullableVariants
+instance Data.Aeson.ToJSON SubscriptionScheduleSubscription'NonNullableVariants
+data SubscriptionScheduleTestClock'NonNullableVariants
+instance Show SubscriptionScheduleTestClock'NonNullableVariants
+instance Eq SubscriptionScheduleTestClock'NonNullableVariants
+instance Data.Aeson.FromJSON SubscriptionScheduleTestClock'NonNullableVariants
+instance Data.Aeson.ToJSON SubscriptionScheduleTestClock'NonNullableVariants

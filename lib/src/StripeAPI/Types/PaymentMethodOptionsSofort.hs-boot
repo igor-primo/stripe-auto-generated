@@ -1,0 +1,18 @@
+module StripeAPI.Types.PaymentMethodOptionsSofort where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentMethodOptionsSofort
+instance Show PaymentMethodOptionsSofort
+instance Eq PaymentMethodOptionsSofort
+instance Data.Aeson.FromJSON PaymentMethodOptionsSofort
+instance Data.Aeson.ToJSON PaymentMethodOptionsSofort
+data PaymentMethodOptionsSofortPreferredLanguage'NonNullable
+instance Show PaymentMethodOptionsSofortPreferredLanguage'NonNullable
+instance Eq PaymentMethodOptionsSofortPreferredLanguage'NonNullable
+instance Data.Aeson.FromJSON PaymentMethodOptionsSofortPreferredLanguage'NonNullable
+instance Data.Aeson.ToJSON PaymentMethodOptionsSofortPreferredLanguage'NonNullable
+data PaymentMethodOptionsSofortSetupFutureUsage'
+instance Show PaymentMethodOptionsSofortSetupFutureUsage'
+instance Eq PaymentMethodOptionsSofortSetupFutureUsage'
+instance Data.Aeson.FromJSON PaymentMethodOptionsSofortSetupFutureUsage'
+instance Data.Aeson.ToJSON PaymentMethodOptionsSofortSetupFutureUsage'

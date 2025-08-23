@@ -1,0 +1,13 @@
+module StripeAPI.Types.InvoiceRenderingPdf where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data InvoiceRenderingPdf
+instance Show InvoiceRenderingPdf
+instance Eq InvoiceRenderingPdf
+instance Data.Aeson.FromJSON InvoiceRenderingPdf
+instance Data.Aeson.ToJSON InvoiceRenderingPdf
+data InvoiceRenderingPdfPageSize'NonNullable
+instance Show InvoiceRenderingPdfPageSize'NonNullable
+instance Eq InvoiceRenderingPdfPageSize'NonNullable
+instance Data.Aeson.FromJSON InvoiceRenderingPdfPageSize'NonNullable
+instance Data.Aeson.ToJSON InvoiceRenderingPdfPageSize'NonNullable

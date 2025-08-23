@@ -1,0 +1,8 @@
+module StripeAPI.Types.PaymentMethodUsBankAccountStatusDetails where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentMethodUsBankAccountStatusDetails
+instance Show PaymentMethodUsBankAccountStatusDetails
+instance Eq PaymentMethodUsBankAccountStatusDetails
+instance Data.Aeson.FromJSON PaymentMethodUsBankAccountStatusDetails
+instance Data.Aeson.ToJSON PaymentMethodUsBankAccountStatusDetails

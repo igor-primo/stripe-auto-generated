@@ -1,0 +1,8 @@
+module StripeAPI.Types.ShippingRateFixedAmount where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data ShippingRateFixedAmount
+instance Show ShippingRateFixedAmount
+instance Eq ShippingRateFixedAmount
+instance Data.Aeson.FromJSON ShippingRateFixedAmount
+instance Data.Aeson.ToJSON ShippingRateFixedAmount

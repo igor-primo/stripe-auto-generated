@@ -1,0 +1,8 @@
+module StripeAPI.Types.PaymentIntentNextActionKonbiniMinistop where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentIntentNextActionKonbiniMinistop
+instance Show PaymentIntentNextActionKonbiniMinistop
+instance Eq PaymentIntentNextActionKonbiniMinistop
+instance Data.Aeson.FromJSON PaymentIntentNextActionKonbiniMinistop
+instance Data.Aeson.ToJSON PaymentIntentNextActionKonbiniMinistop

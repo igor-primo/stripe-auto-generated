@@ -1,0 +1,13 @@
+module StripeAPI.Types.PaymentMethodDetailsCardPresentReceipt where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentMethodDetailsCardPresentReceipt
+instance Show PaymentMethodDetailsCardPresentReceipt
+instance Eq PaymentMethodDetailsCardPresentReceipt
+instance Data.Aeson.FromJSON PaymentMethodDetailsCardPresentReceipt
+instance Data.Aeson.ToJSON PaymentMethodDetailsCardPresentReceipt
+data PaymentMethodDetailsCardPresentReceiptAccountType'
+instance Show PaymentMethodDetailsCardPresentReceiptAccountType'
+instance Eq PaymentMethodDetailsCardPresentReceiptAccountType'
+instance Data.Aeson.FromJSON PaymentMethodDetailsCardPresentReceiptAccountType'
+instance Data.Aeson.ToJSON PaymentMethodDetailsCardPresentReceiptAccountType'

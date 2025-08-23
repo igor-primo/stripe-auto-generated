@@ -1,0 +1,8 @@
+module StripeAPI.Types.PortalFlowsAfterCompletionHostedConfirmation where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PortalFlowsAfterCompletionHostedConfirmation
+instance Show PortalFlowsAfterCompletionHostedConfirmation
+instance Eq PortalFlowsAfterCompletionHostedConfirmation
+instance Data.Aeson.FromJSON PortalFlowsAfterCompletionHostedConfirmation
+instance Data.Aeson.ToJSON PortalFlowsAfterCompletionHostedConfirmation

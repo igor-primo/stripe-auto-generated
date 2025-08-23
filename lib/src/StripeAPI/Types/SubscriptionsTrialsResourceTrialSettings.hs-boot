@@ -1,0 +1,8 @@
+module StripeAPI.Types.SubscriptionsTrialsResourceTrialSettings where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data SubscriptionsTrialsResourceTrialSettings
+instance Show SubscriptionsTrialsResourceTrialSettings
+instance Eq SubscriptionsTrialsResourceTrialSettings
+instance Data.Aeson.FromJSON SubscriptionsTrialsResourceTrialSettings
+instance Data.Aeson.ToJSON SubscriptionsTrialsResourceTrialSettings

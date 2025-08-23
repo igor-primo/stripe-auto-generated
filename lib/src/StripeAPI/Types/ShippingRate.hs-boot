@@ -1,0 +1,43 @@
+module StripeAPI.Types.ShippingRate where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data ShippingRate
+instance Show ShippingRate
+instance Eq ShippingRate
+instance Data.Aeson.FromJSON ShippingRate
+instance Data.Aeson.ToJSON ShippingRate
+data ShippingRateDeliveryEstimate'NonNullable
+instance Show ShippingRateDeliveryEstimate'NonNullable
+instance Eq ShippingRateDeliveryEstimate'NonNullable
+instance Data.Aeson.FromJSON ShippingRateDeliveryEstimate'NonNullable
+instance Data.Aeson.ToJSON ShippingRateDeliveryEstimate'NonNullable
+data ShippingRateDeliveryEstimate'NonNullableMaximum'NonNullable
+instance Show ShippingRateDeliveryEstimate'NonNullableMaximum'NonNullable
+instance Eq ShippingRateDeliveryEstimate'NonNullableMaximum'NonNullable
+instance Data.Aeson.FromJSON ShippingRateDeliveryEstimate'NonNullableMaximum'NonNullable
+instance Data.Aeson.ToJSON ShippingRateDeliveryEstimate'NonNullableMaximum'NonNullable
+data ShippingRateDeliveryEstimate'NonNullableMaximum'NonNullableUnit'
+instance Show ShippingRateDeliveryEstimate'NonNullableMaximum'NonNullableUnit'
+instance Eq ShippingRateDeliveryEstimate'NonNullableMaximum'NonNullableUnit'
+instance Data.Aeson.FromJSON ShippingRateDeliveryEstimate'NonNullableMaximum'NonNullableUnit'
+instance Data.Aeson.ToJSON ShippingRateDeliveryEstimate'NonNullableMaximum'NonNullableUnit'
+data ShippingRateDeliveryEstimate'NonNullableMinimum'NonNullable
+instance Show ShippingRateDeliveryEstimate'NonNullableMinimum'NonNullable
+instance Eq ShippingRateDeliveryEstimate'NonNullableMinimum'NonNullable
+instance Data.Aeson.FromJSON ShippingRateDeliveryEstimate'NonNullableMinimum'NonNullable
+instance Data.Aeson.ToJSON ShippingRateDeliveryEstimate'NonNullableMinimum'NonNullable
+data ShippingRateDeliveryEstimate'NonNullableMinimum'NonNullableUnit'
+instance Show ShippingRateDeliveryEstimate'NonNullableMinimum'NonNullableUnit'
+instance Eq ShippingRateDeliveryEstimate'NonNullableMinimum'NonNullableUnit'
+instance Data.Aeson.FromJSON ShippingRateDeliveryEstimate'NonNullableMinimum'NonNullableUnit'
+instance Data.Aeson.ToJSON ShippingRateDeliveryEstimate'NonNullableMinimum'NonNullableUnit'
+data ShippingRateTaxBehavior'NonNullable
+instance Show ShippingRateTaxBehavior'NonNullable
+instance Eq ShippingRateTaxBehavior'NonNullable
+instance Data.Aeson.FromJSON ShippingRateTaxBehavior'NonNullable
+instance Data.Aeson.ToJSON ShippingRateTaxBehavior'NonNullable
+data ShippingRateTaxCode'NonNullableVariants
+instance Show ShippingRateTaxCode'NonNullableVariants
+instance Eq ShippingRateTaxCode'NonNullableVariants
+instance Data.Aeson.FromJSON ShippingRateTaxCode'NonNullableVariants
+instance Data.Aeson.ToJSON ShippingRateTaxCode'NonNullableVariants

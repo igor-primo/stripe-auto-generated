@@ -1,0 +1,8 @@
+module StripeAPI.Types.AccountDeclineChargeOn where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data AccountDeclineChargeOn
+instance Show AccountDeclineChargeOn
+instance Eq AccountDeclineChargeOn
+instance Data.Aeson.FromJSON AccountDeclineChargeOn
+instance Data.Aeson.ToJSON AccountDeclineChargeOn

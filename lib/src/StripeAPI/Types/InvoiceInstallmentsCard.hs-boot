@@ -1,0 +1,8 @@
+module StripeAPI.Types.InvoiceInstallmentsCard where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data InvoiceInstallmentsCard
+instance Show InvoiceInstallmentsCard
+instance Eq InvoiceInstallmentsCard
+instance Data.Aeson.FromJSON InvoiceInstallmentsCard
+instance Data.Aeson.ToJSON InvoiceInstallmentsCard

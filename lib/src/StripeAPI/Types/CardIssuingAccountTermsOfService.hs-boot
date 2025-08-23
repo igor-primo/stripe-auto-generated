@@ -1,0 +1,8 @@
+module StripeAPI.Types.CardIssuingAccountTermsOfService where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data CardIssuingAccountTermsOfService
+instance Show CardIssuingAccountTermsOfService
+instance Eq CardIssuingAccountTermsOfService
+instance Data.Aeson.FromJSON CardIssuingAccountTermsOfService
+instance Data.Aeson.ToJSON CardIssuingAccountTermsOfService

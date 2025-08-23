@@ -1,0 +1,8 @@
+module StripeAPI.Types.LegalEntityJapanAddress where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data LegalEntityJapanAddress
+instance Show LegalEntityJapanAddress
+instance Eq LegalEntityJapanAddress
+instance Data.Aeson.FromJSON LegalEntityJapanAddress
+instance Data.Aeson.ToJSON LegalEntityJapanAddress

@@ -1,0 +1,13 @@
+module StripeAPI.Types.PaymentMethodDetailsEps where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentMethodDetailsEps
+instance Show PaymentMethodDetailsEps
+instance Eq PaymentMethodDetailsEps
+instance Data.Aeson.FromJSON PaymentMethodDetailsEps
+instance Data.Aeson.ToJSON PaymentMethodDetailsEps
+data PaymentMethodDetailsEpsBank'NonNullable
+instance Show PaymentMethodDetailsEpsBank'NonNullable
+instance Eq PaymentMethodDetailsEpsBank'NonNullable
+instance Data.Aeson.FromJSON PaymentMethodDetailsEpsBank'NonNullable
+instance Data.Aeson.ToJSON PaymentMethodDetailsEpsBank'NonNullable

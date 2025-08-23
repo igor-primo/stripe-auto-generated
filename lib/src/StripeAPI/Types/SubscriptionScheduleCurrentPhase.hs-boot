@@ -1,0 +1,8 @@
+module StripeAPI.Types.SubscriptionScheduleCurrentPhase where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data SubscriptionScheduleCurrentPhase
+instance Show SubscriptionScheduleCurrentPhase
+instance Eq SubscriptionScheduleCurrentPhase
+instance Data.Aeson.FromJSON SubscriptionScheduleCurrentPhase
+instance Data.Aeson.ToJSON SubscriptionScheduleCurrentPhase

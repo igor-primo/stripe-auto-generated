@@ -1,0 +1,8 @@
+module StripeAPI.Types.AccountPayoutSettings where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data AccountPayoutSettings
+instance Show AccountPayoutSettings
+instance Eq AccountPayoutSettings
+instance Data.Aeson.FromJSON AccountPayoutSettings
+instance Data.Aeson.ToJSON AccountPayoutSettings

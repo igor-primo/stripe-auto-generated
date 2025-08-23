@@ -1,0 +1,8 @@
+module StripeAPI.Types.PaymentLinksResourceCustomFieldsLabel where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentLinksResourceCustomFieldsLabel
+instance Show PaymentLinksResourceCustomFieldsLabel
+instance Eq PaymentLinksResourceCustomFieldsLabel
+instance Data.Aeson.FromJSON PaymentLinksResourceCustomFieldsLabel
+instance Data.Aeson.ToJSON PaymentLinksResourceCustomFieldsLabel

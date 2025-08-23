@@ -1,0 +1,13 @@
+module StripeAPI.Types.CheckoutAffirmPaymentMethodOptions where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data CheckoutAffirmPaymentMethodOptions
+instance Show CheckoutAffirmPaymentMethodOptions
+instance Eq CheckoutAffirmPaymentMethodOptions
+instance Data.Aeson.FromJSON CheckoutAffirmPaymentMethodOptions
+instance Data.Aeson.ToJSON CheckoutAffirmPaymentMethodOptions
+data CheckoutAffirmPaymentMethodOptionsSetupFutureUsage'
+instance Show CheckoutAffirmPaymentMethodOptionsSetupFutureUsage'
+instance Eq CheckoutAffirmPaymentMethodOptionsSetupFutureUsage'
+instance Data.Aeson.FromJSON CheckoutAffirmPaymentMethodOptionsSetupFutureUsage'
+instance Data.Aeson.ToJSON CheckoutAffirmPaymentMethodOptionsSetupFutureUsage'

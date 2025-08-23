@@ -1,0 +1,13 @@
+module StripeAPI.Types.SubscriptionPendingInvoiceItemInterval where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data SubscriptionPendingInvoiceItemInterval
+instance Show SubscriptionPendingInvoiceItemInterval
+instance Eq SubscriptionPendingInvoiceItemInterval
+instance Data.Aeson.FromJSON SubscriptionPendingInvoiceItemInterval
+instance Data.Aeson.ToJSON SubscriptionPendingInvoiceItemInterval
+data SubscriptionPendingInvoiceItemIntervalInterval'
+instance Show SubscriptionPendingInvoiceItemIntervalInterval'
+instance Eq SubscriptionPendingInvoiceItemIntervalInterval'
+instance Data.Aeson.FromJSON SubscriptionPendingInvoiceItemIntervalInterval'
+instance Data.Aeson.ToJSON SubscriptionPendingInvoiceItemIntervalInterval'

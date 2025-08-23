@@ -1,0 +1,8 @@
+module StripeAPI.Types.InvoiceLineItemPeriod where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data InvoiceLineItemPeriod
+instance Show InvoiceLineItemPeriod
+instance Eq InvoiceLineItemPeriod
+instance Data.Aeson.FromJSON InvoiceLineItemPeriod
+instance Data.Aeson.ToJSON InvoiceLineItemPeriod

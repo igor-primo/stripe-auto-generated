@@ -1,0 +1,18 @@
+module StripeAPI.Types.CancellationDetails where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data CancellationDetails
+instance Show CancellationDetails
+instance Eq CancellationDetails
+instance Data.Aeson.FromJSON CancellationDetails
+instance Data.Aeson.ToJSON CancellationDetails
+data CancellationDetailsFeedback'NonNullable
+instance Show CancellationDetailsFeedback'NonNullable
+instance Eq CancellationDetailsFeedback'NonNullable
+instance Data.Aeson.FromJSON CancellationDetailsFeedback'NonNullable
+instance Data.Aeson.ToJSON CancellationDetailsFeedback'NonNullable
+data CancellationDetailsReason'NonNullable
+instance Show CancellationDetailsReason'NonNullable
+instance Eq CancellationDetailsReason'NonNullable
+instance Data.Aeson.FromJSON CancellationDetailsReason'NonNullable
+instance Data.Aeson.ToJSON CancellationDetailsReason'NonNullable

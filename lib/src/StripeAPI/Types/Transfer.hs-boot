@@ -1,0 +1,33 @@
+module StripeAPI.Types.Transfer where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data Transfer
+instance Show Transfer
+instance Eq Transfer
+instance Data.Aeson.FromJSON Transfer
+instance Data.Aeson.ToJSON Transfer
+data TransferBalanceTransaction'NonNullableVariants
+instance Show TransferBalanceTransaction'NonNullableVariants
+instance Eq TransferBalanceTransaction'NonNullableVariants
+instance Data.Aeson.FromJSON TransferBalanceTransaction'NonNullableVariants
+instance Data.Aeson.ToJSON TransferBalanceTransaction'NonNullableVariants
+data TransferDestination'NonNullableVariants
+instance Show TransferDestination'NonNullableVariants
+instance Eq TransferDestination'NonNullableVariants
+instance Data.Aeson.FromJSON TransferDestination'NonNullableVariants
+instance Data.Aeson.ToJSON TransferDestination'NonNullableVariants
+data TransferDestinationPayment'Variants
+instance Show TransferDestinationPayment'Variants
+instance Eq TransferDestinationPayment'Variants
+instance Data.Aeson.FromJSON TransferDestinationPayment'Variants
+instance Data.Aeson.ToJSON TransferDestinationPayment'Variants
+data TransferReversals'
+instance Show TransferReversals'
+instance Eq TransferReversals'
+instance Data.Aeson.FromJSON TransferReversals'
+instance Data.Aeson.ToJSON TransferReversals'
+data TransferSourceTransaction'NonNullableVariants
+instance Show TransferSourceTransaction'NonNullableVariants
+instance Eq TransferSourceTransaction'NonNullableVariants
+instance Data.Aeson.FromJSON TransferSourceTransaction'NonNullableVariants
+instance Data.Aeson.ToJSON TransferSourceTransaction'NonNullableVariants

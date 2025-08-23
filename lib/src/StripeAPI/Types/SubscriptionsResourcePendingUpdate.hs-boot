@@ -1,0 +1,8 @@
+module StripeAPI.Types.SubscriptionsResourcePendingUpdate where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data SubscriptionsResourcePendingUpdate
+instance Show SubscriptionsResourcePendingUpdate
+instance Eq SubscriptionsResourcePendingUpdate
+instance Data.Aeson.FromJSON SubscriptionsResourcePendingUpdate
+instance Data.Aeson.ToJSON SubscriptionsResourcePendingUpdate

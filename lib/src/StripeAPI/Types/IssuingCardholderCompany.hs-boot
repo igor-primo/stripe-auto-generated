@@ -1,0 +1,8 @@
+module StripeAPI.Types.IssuingCardholderCompany where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data IssuingCardholderCompany
+instance Show IssuingCardholderCompany
+instance Eq IssuingCardholderCompany
+instance Data.Aeson.FromJSON IssuingCardholderCompany
+instance Data.Aeson.ToJSON IssuingCardholderCompany

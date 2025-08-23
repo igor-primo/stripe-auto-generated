@@ -1,0 +1,8 @@
+module StripeAPI.Types.PaymentIntentNextActionBoleto where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentIntentNextActionBoleto
+instance Show PaymentIntentNextActionBoleto
+instance Eq PaymentIntentNextActionBoleto
+instance Data.Aeson.FromJSON PaymentIntentNextActionBoleto
+instance Data.Aeson.ToJSON PaymentIntentNextActionBoleto

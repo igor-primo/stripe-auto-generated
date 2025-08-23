@@ -1,0 +1,8 @@
+module StripeAPI.Types.SubscriptionItemBillingThresholds where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data SubscriptionItemBillingThresholds
+instance Show SubscriptionItemBillingThresholds
+instance Eq SubscriptionItemBillingThresholds
+instance Data.Aeson.FromJSON SubscriptionItemBillingThresholds
+instance Data.Aeson.ToJSON SubscriptionItemBillingThresholds

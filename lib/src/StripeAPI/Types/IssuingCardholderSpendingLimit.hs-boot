@@ -1,0 +1,18 @@
+module StripeAPI.Types.IssuingCardholderSpendingLimit where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data IssuingCardholderSpendingLimit
+instance Show IssuingCardholderSpendingLimit
+instance Eq IssuingCardholderSpendingLimit
+instance Data.Aeson.FromJSON IssuingCardholderSpendingLimit
+instance Data.Aeson.ToJSON IssuingCardholderSpendingLimit
+data IssuingCardholderSpendingLimitCategories'NonNullable
+instance Show IssuingCardholderSpendingLimitCategories'NonNullable
+instance Eq IssuingCardholderSpendingLimitCategories'NonNullable
+instance Data.Aeson.FromJSON IssuingCardholderSpendingLimitCategories'NonNullable
+instance Data.Aeson.ToJSON IssuingCardholderSpendingLimitCategories'NonNullable
+data IssuingCardholderSpendingLimitInterval'
+instance Show IssuingCardholderSpendingLimitInterval'
+instance Eq IssuingCardholderSpendingLimitInterval'
+instance Data.Aeson.FromJSON IssuingCardholderSpendingLimitInterval'
+instance Data.Aeson.ToJSON IssuingCardholderSpendingLimitInterval'

@@ -1,0 +1,18 @@
+module StripeAPI.Types.SourceOwner where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data SourceOwner
+instance Show SourceOwner
+instance Eq SourceOwner
+instance Data.Aeson.FromJSON SourceOwner
+instance Data.Aeson.ToJSON SourceOwner
+data SourceOwnerAddress'NonNullable
+instance Show SourceOwnerAddress'NonNullable
+instance Eq SourceOwnerAddress'NonNullable
+instance Data.Aeson.FromJSON SourceOwnerAddress'NonNullable
+instance Data.Aeson.ToJSON SourceOwnerAddress'NonNullable
+data SourceOwnerVerifiedAddress'NonNullable
+instance Show SourceOwnerVerifiedAddress'NonNullable
+instance Eq SourceOwnerVerifiedAddress'NonNullable
+instance Data.Aeson.FromJSON SourceOwnerVerifiedAddress'NonNullable
+instance Data.Aeson.ToJSON SourceOwnerVerifiedAddress'NonNullable

@@ -1,0 +1,8 @@
+module StripeAPI.Types.PersonFutureRequirements where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PersonFutureRequirements
+instance Show PersonFutureRequirements
+instance Eq PersonFutureRequirements
+instance Data.Aeson.FromJSON PersonFutureRequirements
+instance Data.Aeson.ToJSON PersonFutureRequirements

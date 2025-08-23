@@ -1,0 +1,13 @@
+module StripeAPI.Types.PaymentMethodOptionsBoleto where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentMethodOptionsBoleto
+instance Show PaymentMethodOptionsBoleto
+instance Eq PaymentMethodOptionsBoleto
+instance Data.Aeson.FromJSON PaymentMethodOptionsBoleto
+instance Data.Aeson.ToJSON PaymentMethodOptionsBoleto
+data PaymentMethodOptionsBoletoSetupFutureUsage'
+instance Show PaymentMethodOptionsBoletoSetupFutureUsage'
+instance Eq PaymentMethodOptionsBoletoSetupFutureUsage'
+instance Data.Aeson.FromJSON PaymentMethodOptionsBoletoSetupFutureUsage'
+instance Data.Aeson.ToJSON PaymentMethodOptionsBoletoSetupFutureUsage'

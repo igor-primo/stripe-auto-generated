@@ -1,0 +1,8 @@
+module StripeAPI.Types.PaymentMethodDetailsGiropay where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentMethodDetailsGiropay
+instance Show PaymentMethodDetailsGiropay
+instance Eq PaymentMethodDetailsGiropay
+instance Data.Aeson.FromJSON PaymentMethodDetailsGiropay
+instance Data.Aeson.ToJSON PaymentMethodDetailsGiropay

@@ -1,0 +1,8 @@
+module StripeAPI.Types.PromotionCodesResourceRestrictions where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PromotionCodesResourceRestrictions
+instance Show PromotionCodesResourceRestrictions
+instance Eq PromotionCodesResourceRestrictions
+instance Data.Aeson.FromJSON PromotionCodesResourceRestrictions
+instance Data.Aeson.ToJSON PromotionCodesResourceRestrictions

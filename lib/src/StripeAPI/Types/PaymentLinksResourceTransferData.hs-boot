@@ -1,0 +1,13 @@
+module StripeAPI.Types.PaymentLinksResourceTransferData where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentLinksResourceTransferData
+instance Show PaymentLinksResourceTransferData
+instance Eq PaymentLinksResourceTransferData
+instance Data.Aeson.FromJSON PaymentLinksResourceTransferData
+instance Data.Aeson.ToJSON PaymentLinksResourceTransferData
+data PaymentLinksResourceTransferDataDestination'Variants
+instance Show PaymentLinksResourceTransferDataDestination'Variants
+instance Eq PaymentLinksResourceTransferDataDestination'Variants
+instance Data.Aeson.FromJSON PaymentLinksResourceTransferDataDestination'Variants
+instance Data.Aeson.ToJSON PaymentLinksResourceTransferDataDestination'Variants

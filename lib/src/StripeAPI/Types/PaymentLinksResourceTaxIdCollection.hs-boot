@@ -1,0 +1,13 @@
+module StripeAPI.Types.PaymentLinksResourceTaxIdCollection where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentLinksResourceTaxIdCollection
+instance Show PaymentLinksResourceTaxIdCollection
+instance Eq PaymentLinksResourceTaxIdCollection
+instance Data.Aeson.FromJSON PaymentLinksResourceTaxIdCollection
+instance Data.Aeson.ToJSON PaymentLinksResourceTaxIdCollection
+data PaymentLinksResourceTaxIdCollectionRequired'
+instance Show PaymentLinksResourceTaxIdCollectionRequired'
+instance Eq PaymentLinksResourceTaxIdCollectionRequired'
+instance Data.Aeson.FromJSON PaymentLinksResourceTaxIdCollectionRequired'
+instance Data.Aeson.ToJSON PaymentLinksResourceTaxIdCollectionRequired'

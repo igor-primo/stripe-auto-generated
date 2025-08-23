@@ -1,0 +1,8 @@
+module StripeAPI.Types.PaymentMethodDetailsAchCreditTransfer where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentMethodDetailsAchCreditTransfer
+instance Show PaymentMethodDetailsAchCreditTransfer
+instance Eq PaymentMethodDetailsAchCreditTransfer
+instance Data.Aeson.FromJSON PaymentMethodDetailsAchCreditTransfer
+instance Data.Aeson.ToJSON PaymentMethodDetailsAchCreditTransfer

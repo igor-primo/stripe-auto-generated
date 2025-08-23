@@ -1,0 +1,8 @@
+module StripeAPI.Types.AccountMonthlyEstimatedRevenue where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data AccountMonthlyEstimatedRevenue
+instance Show AccountMonthlyEstimatedRevenue
+instance Eq AccountMonthlyEstimatedRevenue
+instance Data.Aeson.FromJSON AccountMonthlyEstimatedRevenue
+instance Data.Aeson.ToJSON AccountMonthlyEstimatedRevenue

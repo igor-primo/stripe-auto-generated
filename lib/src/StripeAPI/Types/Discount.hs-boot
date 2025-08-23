@@ -1,0 +1,18 @@
+module StripeAPI.Types.Discount where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data Discount
+instance Show Discount
+instance Eq Discount
+instance Data.Aeson.FromJSON Discount
+instance Data.Aeson.ToJSON Discount
+data DiscountCustomer'NonNullableVariants
+instance Show DiscountCustomer'NonNullableVariants
+instance Eq DiscountCustomer'NonNullableVariants
+instance Data.Aeson.FromJSON DiscountCustomer'NonNullableVariants
+instance Data.Aeson.ToJSON DiscountCustomer'NonNullableVariants
+data DiscountPromotionCode'NonNullableVariants
+instance Show DiscountPromotionCode'NonNullableVariants
+instance Eq DiscountPromotionCode'NonNullableVariants
+instance Data.Aeson.FromJSON DiscountPromotionCode'NonNullableVariants
+instance Data.Aeson.ToJSON DiscountPromotionCode'NonNullableVariants

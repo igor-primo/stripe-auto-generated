@@ -1,0 +1,8 @@
+module StripeAPI.Types.IssuingNetworkTokenVisa where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data IssuingNetworkTokenVisa
+instance Show IssuingNetworkTokenVisa
+instance Eq IssuingNetworkTokenVisa
+instance Data.Aeson.FromJSON IssuingNetworkTokenVisa
+instance Data.Aeson.ToJSON IssuingNetworkTokenVisa

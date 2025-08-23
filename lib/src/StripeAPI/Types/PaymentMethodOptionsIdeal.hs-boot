@@ -1,0 +1,13 @@
+module StripeAPI.Types.PaymentMethodOptionsIdeal where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data PaymentMethodOptionsIdeal
+instance Show PaymentMethodOptionsIdeal
+instance Eq PaymentMethodOptionsIdeal
+instance Data.Aeson.FromJSON PaymentMethodOptionsIdeal
+instance Data.Aeson.ToJSON PaymentMethodOptionsIdeal
+data PaymentMethodOptionsIdealSetupFutureUsage'
+instance Show PaymentMethodOptionsIdealSetupFutureUsage'
+instance Eq PaymentMethodOptionsIdealSetupFutureUsage'
+instance Data.Aeson.FromJSON PaymentMethodOptionsIdealSetupFutureUsage'
+instance Data.Aeson.ToJSON PaymentMethodOptionsIdealSetupFutureUsage'

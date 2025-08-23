@@ -1,0 +1,13 @@
+module StripeAPI.Types.CheckoutKonbiniPaymentMethodOptions where
+import qualified Data.Aeson
+import qualified StripeAPI.Common
+data CheckoutKonbiniPaymentMethodOptions
+instance Show CheckoutKonbiniPaymentMethodOptions
+instance Eq CheckoutKonbiniPaymentMethodOptions
+instance Data.Aeson.FromJSON CheckoutKonbiniPaymentMethodOptions
+instance Data.Aeson.ToJSON CheckoutKonbiniPaymentMethodOptions
+data CheckoutKonbiniPaymentMethodOptionsSetupFutureUsage'
+instance Show CheckoutKonbiniPaymentMethodOptionsSetupFutureUsage'
+instance Eq CheckoutKonbiniPaymentMethodOptionsSetupFutureUsage'
+instance Data.Aeson.FromJSON CheckoutKonbiniPaymentMethodOptionsSetupFutureUsage'
+instance Data.Aeson.ToJSON CheckoutKonbiniPaymentMethodOptionsSetupFutureUsage'
