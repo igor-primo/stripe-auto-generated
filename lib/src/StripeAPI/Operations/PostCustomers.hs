@@ -14,7 +14,6 @@ import qualified Data.Aeson as Data.Aeson.Types
 import qualified Data.Aeson as Data.Aeson.Types.FromJSON
 import qualified Data.Aeson as Data.Aeson.Types.Internal
 import qualified Data.Aeson as Data.Aeson.Types.ToJSON
-import qualified Data.Aeson.Decoding as Data.Aeson.Decoding
 import qualified Data.ByteString
 import qualified Data.ByteString as Data.ByteString.Internal
 import qualified Data.ByteString as Data.ByteString.Internal.Type
@@ -64,14 +63,14 @@ postCustomers body =
                              if
                                | (\status_1 -> Network.HTTP.Types.Status.statusCode status_1 GHC.Classes.== 200) (Network.HTTP.Client.Types.responseStatus response) ->
                                    PostCustomersResponse200
-                                     Data.Functor.<$> ( Data.Aeson.Decoding.eitherDecodeStrict body ::
+                                     Data.Functor.<$> ( Data.Aeson.eitherDecodeStrict body ::
                                                           Data.Either.Either
                                                             GHC.Base.String
                                                             Customer
                                                       )
                                | GHC.Base.const GHC.Types.True (Network.HTTP.Client.Types.responseStatus response) ->
                                    PostCustomersResponseDefault
-                                     Data.Functor.<$> ( Data.Aeson.Decoding.eitherDecodeStrict body ::
+                                     Data.Functor.<$> ( Data.Aeson.eitherDecodeStrict body ::
                                                           Data.Either.Either
                                                             GHC.Base.String
                                                             Error

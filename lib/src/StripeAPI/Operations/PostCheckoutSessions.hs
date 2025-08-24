@@ -23,7 +23,6 @@ import qualified Data.Functor
 import qualified Data.Maybe
 import qualified Data.Scientific
 import qualified Data.Text
-import qualified Data.Aeson.Decoding as Data.Aeson.Decoding
 import qualified Data.Text as Data.Text.Internal
 import qualified Data.Time.Calendar as Data.Time.Calendar.Days
 import qualified Data.Time.LocalTime as Data.Time.LocalTime.Internal.ZonedTime
@@ -64,14 +63,14 @@ postCheckoutSessions body =
                              if
                                | (\status_1 -> Network.HTTP.Types.Status.statusCode status_1 GHC.Classes.== 200) (Network.HTTP.Client.Types.responseStatus response) ->
                                    PostCheckoutSessionsResponse200
-                                     Data.Functor.<$> ( Data.Aeson.Decoding.eitherDecodeStrict body ::
+                                     Data.Functor.<$> ( Data.Aeson.eitherDecodeStrict body ::
                                                           Data.Either.Either
                                                             GHC.Base.String
                                                             Checkout'session
                                                       )
                                | GHC.Base.const GHC.Types.True (Network.HTTP.Client.Types.responseStatus response) ->
                                    PostCheckoutSessionsResponseDefault
-                                     Data.Functor.<$> ( Data.Aeson.Decoding.eitherDecodeStrict body ::
+                                     Data.Functor.<$> ( Data.Aeson.eitherDecodeStrict body ::
                                                           Data.Either.Either
                                                             GHC.Base.String
                                                             Error
